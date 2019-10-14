@@ -1,5 +1,4 @@
 ---
-layout: cycle  
 title: 环青海湖骑行  
 date: 2017-12-16 15:02:13  
 tags:  户外旅行  
