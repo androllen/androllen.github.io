@@ -1,7 +1,7 @@
 ---
 title: 一键设置系统环境变量脚本
 date: 2018-11-10 23:15:39  
-categories: Tools  
+tags: CMD 
 ---
 
 #### 系统命令

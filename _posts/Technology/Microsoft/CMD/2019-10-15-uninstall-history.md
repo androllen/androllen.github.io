@@ -1,6 +1,9 @@
 ---
 title: 卸载软件历史记录
+date: 2017-03-07 18:26:32
+tags: CMD
 ---
+
 
 ### 卸载软件历史记录
 1. cmd to regedit 打开注册表定位[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\windows\CurrentVersion\Uninstall]

@@ -4,6 +4,7 @@ date: 2016-12-09 15:09:33
 tags: DEVTool
 categories: 工具  
 ---
+### 优秀的软件
 
 工具名称|下载地址|描述
 ---|----|------
@@ -27,3 +28,10 @@ wireshark官网|[https://www.wireshark.org/download.html](https://www.wireshark.
 itellyou|[https://msdn.itellyou.cn/](https://msdn.itellyou.cn/)  
 msdnHk|[http://www.msdn.hk/](http://www.msdn.hk/) 
 msdnSu|[https://msdn.itellyou.cn/](https://msdn.itellyou.cn/) 
+
+
+
+
+软件|用途|说明|下载地址
+-----|----|-----|----
+SpaceSniffer|直观查看硬盘占用|安装新系统之前最好使用查看一下文件夹|[下载地址](https://pc.qq.com/search.html#!keyword=SpaceSniffer)

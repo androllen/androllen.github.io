@@ -1,9 +1,9 @@
 ---
 title: cmd tool for windows  
 date: 2016-12-09 15:07:19  
-tags: cmd  
-categories: 命令  
+tags: CMD  
 ---
+
 ```
 C:\Users\Androllen>d:  
 
