@@ -35,3 +35,7 @@ msdnSu|[https://msdn.itellyou.cn/](https://msdn.itellyou.cn/)
 软件|用途|说明|下载地址
 -----|----|-----|----
 SpaceSniffer|直观查看硬盘占用|安装新系统之前最好使用查看一下文件夹|[下载地址](https://pc.qq.com/search.html#!keyword=SpaceSniffer)
+dism++| 清理内存垃圾|插件|[下载地址](http://www.chuyu.me/zh-Hans/)
+
+
+https://sphard.com/
