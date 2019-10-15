@@ -1,6 +1,6 @@
 ### 推荐：
-[hexo 完整教程](http://theme-next.iissnan.com/getting-started.html)  
-[minima of jekyll](https://github.com/jekyll/minima)
+- [hexo 完整教程](http://theme-next.iissnan.com/getting-started.html)  
+- [minima of jekyll](https://github.com/jekyll/minima)
 
 ### 个人博客：
 - http://timmy3131.github.io  
