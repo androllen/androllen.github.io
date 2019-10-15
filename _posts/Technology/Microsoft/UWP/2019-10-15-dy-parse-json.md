@@ -1,50 +1,13 @@
 ---
-title: Hello World
+title: 动态解析json 
+date: 2016-11-02 14:45:27  
+tags:  json
+categories: json  
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
-
-## Quick Start
-
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
-
-卸载软件历史记录
-1.cmd to regedit 打开注册表定位[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\windows\CurrentVersion\Uninstall]
-2.从文件夹里看 DisplayName 属性 直到找到符合你要删除的软件名
-3.从文件夹里看 InstallSource 属性，看到有路径，去文件夹里找到这个路径下的文件，如果需要修复或者卸载，卸载软件即可。
 
 
-动态解析json
-           StorageFile file = await FileUtil.GetFileApp("ms-appx:///Assets/CityCode_CN.txt");
+``` c#
+          StorageFile file = await FileUtil.GetFileApp("ms-appx:///Assets/CityCode_CN.txt");
             using (IRandomAccessStream fileStream = await file.OpenAsync(FileAccessMode.Read))
             {
                 var size = fileStream.Size;
@@ -86,3 +49,4 @@ More info: [Deployment](https://hexo.io/docs/deployment.html)
                 }
 
                 System.Diagnostics.Debug.WriteLine("ok");
+```

@@ -4,7 +4,8 @@ date: 2016-11-02 14:45:27
 tags:  
 categories: Blog  
 ---
-# 基本流程  
+
+### 基本流程  
 1. 使用在github 建立一个版本库 yourname.github.io  
 1. 安装hexo 需要node.js[使用nvm 安装node.js](http://achinesepainter.com/2016/11/18/nvm-install-node-js-for-Mac-and-Windows/)  
 1. 配置环境变量  
@@ -45,7 +46,7 @@ categories: Blog
     
 ------------
 
-## 问题
+### 问题
 1. 如果hexo new "一篇文章"的时候，tags: shell 是小写想换成大写？   
     > 先把标签注释掉
     > hexo g  
@@ -111,5 +112,5 @@ categories: Blog
     > hexo g  
     > hexo s  
     > hexo d   
-## 更多请参考：  
+### 更多请参考：  
 * [使用nexT主题教程](http://theme-next.iissnan.com)  
