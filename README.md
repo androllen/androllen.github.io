@@ -1,4 +1,4 @@
-### 推荐  
+### 推荐：
 [hexo 完整教程](http://theme-next.iissnan.com/getting-started.html)  
 [minima of jekyll](https://github.com/jekyll/minima)
 
@@ -13,7 +13,7 @@
 - http://blog.csdn.net/v123411739/article/details/44964065  
 
 
-#### 相关链接：  
+### 相关链接：  
 - https://github.com/shopify/liquid/wiki/liquid-for-designers  
 - http://jekyllrb.com/docs/frontmatter/  
 - https://pages.github.com/  
