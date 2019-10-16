@@ -17,4 +17,8 @@
       title="{{ social.instagram | escape }}"><svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use>
       </svg></a></li>{%- endif -%}
+  {%- if social.rss -%}<li><a href="{{ 'feed.xml' | relative_url }}" title="{{ social.rss | escape }}"><svg
+        class="svg-icon grey">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+      </svg></a></li>{%- endif -%}
 </ul>
