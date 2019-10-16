@@ -1,5 +1,6 @@
 ---
 layout: page
+title: My's About
 permalink: /about
 ---
 
@@ -33,7 +34,7 @@ permalink: /about
 
 ### 项目经验
   项目名称：[想恋爱 for Android](http://sj.qq.com/myapp/detail.htm?apkName=cn.xianglianai)  
-  项目简介：想恋爱（xianglianai.cn）我们身边的婚恋平台，注册用户超过5000万，是国内为数不多完全采用人工审核的严肃婚恋交友平台。  
+  项目简介：想恋爱(xianglianai.cn)我们身边的婚恋平台，注册用户超过5000万，是国内为数不多完全采用人工审核的严肃婚恋交友平台。  
   本人职责：开发想恋爱广告接口部分  
   开发时间：若干天  
 
@@ -43,7 +44,7 @@ permalink: /about
   开发时间：若干天  
 
   项目名称：[想恋爱 for WP8](http://dwz.cn/4SHTQ7)  
-  项目简介：想恋爱（xianglianai.cn）我们身边的婚恋平台，注册用户超过5000万，是国内为数不多完全采用人工审核的严肃婚恋交友平台。  
+  项目简介：想恋爱(xianglianai.cn)我们身边的婚恋平台，注册用户超过5000万，是国内为数不多完全采用人工审核的严肃婚恋交友平台。  
   本人职责：独立开发完成包括私信系统，会员系统，资料搜爱，第三方支付接入  
   开发时间：3个月及后期维护优化  
 
@@ -71,8 +72,9 @@ permalink: /about
 - 2010.12-2011.5  北京魔屏科技有限公司,主要负责Symbian UI开发
 
 ### 参赛项目
-- [2015/9 首届"中国青年互联网创业大赛"决赛应用<微呀>](http://news.youth.cn/gn/201509/t20150924_7148907.htm)  
-- [2015/6 微软"Windows10开发中国极客秀"决赛应用<微呀>](https://www.microsoft.com/china/msdn/win10geek/)  
+- [2015/9 首届"中国青年互联网创业大赛"决赛应用(微呀)](http://news.youth.cn/gn/201509/t20150924_7148907.htm)  
+- [2015/6 微软"Windows10开发中国极客秀"决赛应用(微呀)](https://www.microsoft.com/china/msdn/win10geek/)  
+- <a href="https://www.microsoft.com/china/msdn/win10geek/">2015/6 微软"Windows10开发中国极客秀"决赛应用(微呀)</a>
 
 ### 教育背景
 - 2010.5-2010.12.4	    乐成数字通信学院          Symbian应用软件开发
@@ -84,7 +86,7 @@ permalink: /about
 - 具备良好的分析解决问题能力，能不断学习，提升自己
 
 ### 摄影  
-- 伪摄影入门学徒|进阶摄影爱好者  
+- 伪摄影入门学徒 进阶摄影爱好者  
 
 ### 绘画  
 - 使用的是sai IDE  wacom 手绘板  
