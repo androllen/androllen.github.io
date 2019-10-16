@@ -71,8 +71,8 @@ permalink: /about
 *	2010.12-2011.5  北京魔屏科技有限公司,主要负责Symbian UI开发
 
 ### 参赛项目
-- [2015/9 首届"中国青年互联网创业大赛"决赛应用<微呀>](http://news.youth.cn/gn/201509/t20150924_7148907.htm)
-- [2015/6 微软"Windows10开发中国极客秀"决赛应用<微呀>](https://www.microsoft.com/china/msdn/win10geek/)
+[2015/9 首届"中国青年互联网创业大赛"决赛应用<微呀>](http://news.youth.cn/gn/201509/t20150924_7148907.htm)
+[2015/6 微软"Windows10开发中国极客秀"决赛应用<微呀>](https://www.microsoft.com/china/msdn/win10geek/)
 
 ### 教育背景
 *	2010.5-2010.12.4	    乐成数字通信学院          Symbian应用软件开发
@@ -95,3 +95,7 @@ permalink: /about
 
 ### 音乐  
 *	好久不见  
+
+
+[2015/9 首届"中国青年互联网创业大赛"决赛应用<微呀>](http://news.youth.cn/gn/201509/t20150924_7148907.htm)
+[2015/6 微软"Windows10开发中国极客秀"决赛应用<微呀>](https://www.microsoft.com/china/msdn/win10geek/)
