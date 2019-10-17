@@ -10,3 +10,4 @@ author: androllen
 - [Python-100-Days](https://github.com/jackfrued/Python-100-Days)
 - [awesome-python](https://github.com/vinta/awesome-python)
 - [python36patterns](https://github.com/ydf0509/python36patterns)
+- [Effective Python source code](https://github.com/bslatkin/effectivepython)
