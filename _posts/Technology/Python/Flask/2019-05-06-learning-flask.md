@@ -4,6 +4,7 @@ date: 2019-05-06 12:00:37
 tags: Flask Web Service  
 ---
 
+- [The-Flask-Mega-Tutorial-zh](https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh)
 - [flask-tutorial](https://github.com/greyli/flask-tutorial)
 - [flask-share](https://github.com/greyli/catchat)
 - [catchat](https://github.com/greyli/flask-share)
