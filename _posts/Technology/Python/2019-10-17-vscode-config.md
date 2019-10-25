@@ -5,6 +5,8 @@ tags: Python
 author: androllen  
 ---
 
+![](../../../assets/20191017171047.png)
+![](../../../assets/20191017171116.png)
 
 ``` bash
 {
@@ -25,5 +27,3 @@ author: androllen
 }
 ```
 
-![](Assets/20191017171047.png)
-![](Assets/20191017171116.png)
