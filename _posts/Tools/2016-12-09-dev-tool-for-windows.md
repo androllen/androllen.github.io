@@ -22,13 +22,12 @@ Homebrew官网|[http://brew.sh/index_zh-cn.html](http://brew.sh/index_zh-cn.html
 Everything官网|[http://www.voidtools.com/downloads/](http://www.voidtools.com/downloads/)|文件搜索工具
 sublimetext3官网|[http://www.sublimetext.com/3](http://www.sublimetext.com/3)|文本编辑
 Sqlite SDK|[https://www.sqlite.org/](https://www.sqlite.org/download.html)
-Sqlite Tool|[Sqlite Tool](https://nightlies.sqlitebrowser.org/win64/) 
 wireshark官网|[https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)|数据抓取
 微信公众平台官网|[https://mp.weixin.qq.com/](https://mp.weixin.qq.com/)  
 itellyou|[https://msdn.itellyou.cn/](https://msdn.itellyou.cn/)  
 msdnHk|[http://www.msdn.hk/](http://www.msdn.hk/) 
 msdnSu|[https://msdn.itellyou.cn/](https://msdn.itellyou.cn/) 
-
+sqlitebrowser|[sqlitebrowser](https://sqlitebrowser.org/dl/) or [sqlitebrowser](https://nightlies.sqlitebrowser.org/win64/)|数据库管理查看工具
 
 
 
