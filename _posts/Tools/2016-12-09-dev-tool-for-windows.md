@@ -27,8 +27,8 @@ wireshark官网|[https://www.wireshark.org/download.html](https://www.wireshark.
 itellyou|[https://msdn.itellyou.cn/](https://msdn.itellyou.cn/)  
 msdnHk|[http://www.msdn.hk/](http://www.msdn.hk/) 
 msdnSu|[https://msdn.itellyou.cn/](https://msdn.itellyou.cn/) 
-sqlitebrowser|[sqlitebrowser](https://sqlitebrowser.org/dl/) or [sqlitebrowser](https://nightlies.sqlitebrowser.org/win64/)|数据库管理查看工具
-
+sqlitebrowser|[sqlitebrowser](https://sqlitebrowser.org/dl/)|数据库管理查看工具
+SSH 连接管理工具|[Xshell and Xftp 个人使用版](https://www.netsarang.com/zh/free-for-home-school/)|SSH和SFTP/FTP客户端
 
 
 软件|用途|说明|下载地址
