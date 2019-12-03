@@ -16,25 +16,25 @@ FFmpegInterop库托管在Github下，项目地址：[FFmpegInterop库][FFmpegInt
 FFmpegInterop 基于[FFmpeg库][FFmpeg]开发的二次开发库 依赖[FFmpeg库][FFmpeg]的lib include 等文件  
 那么我们就要对 [FFmpeg库][FFmpeg]进行编译，这里微软的开源项目 [FFmpegInterop库][FFmpegInterop] 提供了很好的帮助  
 1. 首先你可以很容易的从git 上克隆出最新的 FFmpeg 版本 存放在本地 
-```
-git clone git://github.com/microsoft/FFmpegInterop.git
-cd FFmpegInterop
-git clone git://source.ffmpeg.org/ffmpeg.git
-```
+    ```
+    git clone git://github.com/microsoft/FFmpegInterop.git
+    cd FFmpegInterop
+    git clone git://source.ffmpeg.org/ffmpeg.git
+    ```
 2. 下载的时间比较长完成之后你的FFmpegInterop 库文件夹应该是这样的
-```
-FFmpegInterop\
-    ffmpeg\              - 从最新地址获取源码[FFmpeg库][FFmpeg] 
-    FFmpegInterop\       - FFmpegInterop WinRT 组件
-    Samples\             - Media Player applications 实例 in C++, C#, and JavaScript
-    Tests\               - FFmpegInterop 单元测试
-    BuildFFmpeg.bat      - [关于描述 FFmpeg库 的帮助脚本 ][FFmpeg help script]
-    FFmpegConfig.sh      - 含有FFmpeg 配置选项内部脚本
-    FFmpegWin8.1.sln     - Microsoft Visual Studio 2013 solution file for Windows 8.1 and Windows Phone 8.1 解决方案
-    FFmpegWin10.sln      - Microsoft Visual Studio 2015 solution file for Windows 10 解决方案
-    LICENSE
-    README.md
-```
+    ```
+    FFmpegInterop\
+        ffmpeg\              - 从最新地址获取源码[FFmpeg库][FFmpeg] 
+        FFmpegInterop\       - FFmpegInterop WinRT 组件
+        Samples\             - Media Player applications 实例 in C++, C#, and JavaScript
+        Tests\               - FFmpegInterop 单元测试
+        BuildFFmpeg.bat      - [关于描述 FFmpeg库 的帮助脚本 ][FFmpeg help script]
+        FFmpegConfig.sh      - 含有FFmpeg 配置选项内部脚本
+        FFmpegWin8.1.sln     - Microsoft Visual Studio 2013 solution file for Windows 8.1 and Windows Phone 8.1 解决方案
+        FFmpegWin10.sln      - Microsoft Visual Studio 2015 solution file for Windows 10 解决方案
+        LICENSE
+        README.md
+    ```
 现在你可以按照[how to build FFmpeg for WinRT apps][FFmpeg help script]说明完成设置
 
 ## 现在我们开始编译 FFmpeg做准备工作  
