@@ -25,3 +25,6 @@ START D:\Programs\Tencent\WeChat\WeChat.exe
 ```
 
 
+### 批量修改文件后缀名
+
+把 `ren * *.jpg` 写到 `test.bat` 放到修改的文件夹里
