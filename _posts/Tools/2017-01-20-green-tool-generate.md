@@ -15,16 +15,3 @@ tags: 绿色软件
    - 打开更新选项卡，覆盖方式 选中“覆盖所有文件”  
    - 打开文本和图标选项卡，安静模式 自解压微标使用BMP格式文件，自解压文件图标使用ICO格式文件  
 1. 完成以上步骤选择“确定”  
-
-
-### 微信多开
-
-```
-START D:\Programs\Tencent\WeChat\WeChat.exe
-START D:\Programs\Tencent\WeChat\WeChat.exe
-```
-
-
-### 批量修改文件后缀名
-
-把 `ren * *.jpg` 写到 `test.bat` 放到修改的文件夹里
