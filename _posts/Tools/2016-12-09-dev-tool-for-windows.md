@@ -31,10 +31,11 @@ sqlitebrowser|[sqlitebrowser](https://sqlitebrowser.org/dl/)|数据库管理查�
 SSH 连接管理工具|[Xshell and Xftp 个人使用版](https://www.netsarang.com/zh/free-for-home-school/)|SSH和SFTP/FTP客户端
 
 
+
 软件|用途|说明|下载地址
 -----|----|-----|----
 SpaceSniffer|直观查看硬盘占用|安装新系统之前最好使用查看一下文件夹|[下载地址](https://pc.qq.com/search.html#!keyword=SpaceSniffer)
 dism++| 清理内存垃圾|插件|[下载地址](http://www.chuyu.me/zh-Hans/)
-
+Rufus|USB便携启动盘|可以帮助格式化和创建可引导USB闪存盘的工具|[下载地址](https://github.com/pbatard/rufus/releases/download/v3.9/rufus-3.9p.exe)
 
 https://sphard.com/
