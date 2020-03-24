@@ -10,7 +10,7 @@ author: androllen
 由于传统安装使用软碟通 UltraISO 安装 Windows 操作系统一般都在4GB一下，安装在 FAT32 文件格式下，从2015年之后的新电脑都支持 UEFI 快速安装，极大的提升了开机时间。  
 如果想全新安装Win10，我们要这样做：
 
-![](../../assets/20200323140635.png)
+![](../assets/20200323140635.png)
 
 ### 步骤
 1. 下载 Windows 10 iso 镜像文件 [下载地址](https://msdn.itellyou.cn/)
