@@ -5,6 +5,8 @@ tags: OverView
 categories: Python  
 ---
 
+![](../../../assets/posts/20191120180921.png)
+
 ### string
 ```
 s = 'good morning'

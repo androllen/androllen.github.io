@@ -5,8 +5,8 @@ tags: Python
 author: androllen  
 ---
 
-![](../../../assets/20191017171047.png)
-![](../../../assets/20191017171116.png)
+![](../../../assets/posts/20191017171047.png)
+![](../../../assets/posts/20191017171116.png)
 
 ``` bash
 {
