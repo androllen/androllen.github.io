@@ -22,26 +22,26 @@ permalink: /about
 
 ### 技术特长  
 - 熟练网络安全开发 for WPF
-- 熟练 Python java开发
+- 熟练 Python & java开发
 - 熟悉软件开发流程 设计模式
-- 熟悉Axure RP Visio PS Au
-- 熟悉代码管理工具git svn
-- 熟悉抓包工具Burp suite fiddler 4
+- 熟悉Axure RP & Visio & PS && Au
+- 熟悉代码管理工具git & svn
+- 熟悉抓包工具Burp suite & fiddler 4
 
 
 ### 项目经验
-  项目名称:[天象 for Window10](http://www.4dogs.cn/tx/)  
+  项目名称:[天象 for Windows 10](http://www.4dogs.cn/tx/)  
   项目简介:天象综合渗透测试平台是面向大型企事业单位的运维人员,专门针对web安全领域,降低IT运维成本.该平台覆盖整个渗透过程,从“信息收集”到“扫描探测”,帮助渗透测试人员快速完成web目标的渗透测试. 
   本人职责:  
   - 负责主要功能搭建和开发.
   - 负责开发数据库框架搭建和开发.
 
-  项目名称:[维感平台 for Window](http://www.gestouch.com)  
+  项目名称:[维感平台 for Windows 10](http://www.gestouch.com)  
   项目简介:维感是一套智能数字展示和人机交互解决方案,可用于品牌宣传,内容展示 虚拟体验 销售辅助 多人多设备交互以及大数据营销等多个方面.  
   本人职责:  
   - 负责功能模块的开发和设计.
 
-  项目名称:[想恋爱 for Window](http://xianglianai.cn/)  
+  项目名称:[想恋爱 for WP8](http://xianglianai.cn/)  
   项目简介:我们身边的婚恋平台,注册用户超过5000万,是国内为数不多完全采用人工审核的严肃婚恋交友平台.  
   本人职责:  
   - 负责框架搭建和开发
@@ -54,10 +54,10 @@ permalink: /about
 
 
 ### 工作经历
-- 2018.4-------  北京四维创智科技有限公司,开发天象 with WPF.
-- 2017.4-2018.4  北京中达金桥科技有限公司,开发维感虚拟平台 with WPF.
-- 2014.2-2016.6  北京想恋爱科技有限公司,开发想恋爱 of Symbian and WP8.
-- 2011.8-2014.6  北京新视媒体有限公司,开发风景网 of Symbian.
+- 2018.4--- 至今  北京四维创智科技有限公司,开发天象 for Windows 10.
+- 2017.4-2018.4  北京中达金桥科技有限公司,开发维感虚拟平台 for Windows 10.
+- 2014.2-2016.6  北京想恋爱科技有限公司,开发想恋爱 for Symbian and WP8.
+- 2011.8-2014.6  北京新视媒体有限公司,开发风景网 for Symbian.
 
 
 ### 参赛项目
