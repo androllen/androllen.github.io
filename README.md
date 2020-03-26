@@ -3,25 +3,12 @@
 - [minima of jekyll](https://github.com/jekyll/minima)
 
 ### 个人博客：
-- http://timmy3131.github.io  
 - http://PerryDu.github.io  
-- http://Mrzeron.github.io  
-- http://haoranw.github.io  
 - http://chitanda.github.io  
 - http://FingerArt.github.io  
-- http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html  
-- http://blog.csdn.net/v123411739/article/details/44964065  
-- https://github.com/i042416/i042416.github.io
 - https://github.com/hanxi/blog
-- http://jerrywang-sap.cn/
 
 ### 相关链接：  
-- https://github.com/shopify/liquid/wiki/liquid-for-designers  
-- http://jekyllrb.com/docs/frontmatter/  
-- https://pages.github.com/  
-- https://help.github.com/categories/github-pages-basics/  
-- http://jekyllrb.com/docs/configuration/  
-- http://beiyuu.com/github-pages  
 - [customizing-github-pages](https://help.github.com/categories/customizing-github-pages/) 
 - [https://github.com/wuhaoworld/github-issues-blog](https://github.com/wuhaoworld/github-issues-blog)
 - [Theme preview](https://jekyll.github.io/minima/)
@@ -32,4 +19,12 @@
 - [如何为开源做贡献](https://opensource.guide/zh-cn/how-to-contribute/)
 - [如何选择License](https://choosealicense.com/)
 - [jekyll-new](https://github.com/jglovier/jekyll-new)
+- https://github.com/shopify/liquid/wiki/liquid-for-designers  
+- http://jekyllrb.com/docs/frontmatter/  
+- https://pages.github.com/  
+- https://help.github.com/categories/github-pages-basics/  
+- http://jekyllrb.com/docs/configuration/  
+- http://beiyuu.com/github-pages  
+- http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html  
+- http://blog.csdn.net/v123411739/article/details/44964065  
 
