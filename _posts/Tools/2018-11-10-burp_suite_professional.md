@@ -36,3 +36,27 @@ CRC32: D1C8E1A9
 
 PS:需要jdk1.8以上  
 Burp Suite Professional 2.0.09 最新和谐版本是利刃团队免费分享的资源，禁止任何组织和个人以各种借口拿去收费  
+
+
+### Burp Suite 抓取 HTTPS 需要安装证书
+1. Chrome 版本
+   - 设置代理
+     ![](/assets/posts/20200328214331.png)
+     ![](/assets/posts/20200328214450.png)
+   - 下载证书  
+     http://burp/
+     ![](/assets/posts/20200328214480.png)
+
+   - 安装证书
+     ![](/assets/posts/20200328214554.png)
+     ![](/assets/posts/20200328214627.png)
+     ![](/assets/posts/20200328214724.png)
+     ![](/assets/posts/20200328214809.png)
+     
+   - 设置开关
+     ```
+     Proxy中Intercept选项卡，关闭拦截功能“Interception is off”
+     ```
+     ![](/assets/posts/20200328220216.png)
+
+  
