@@ -44,7 +44,7 @@ Burp Suite Professional 2.0.09 最新和谐版本是利刃团队免费分享的�
      ![](/assets/posts/20200328214331.png)
      ![](/assets/posts/20200328214450.png)
    - 下载证书  
-     http://burp/
+     http://burp/  
      ![](/assets/posts/20200328214480.png)
 
    - 安装证书
@@ -54,10 +54,8 @@ Burp Suite Professional 2.0.09 最新和谐版本是利刃团队免费分享的�
      ![](/assets/posts/20200328214809.png)
      
    - 设置开关
-     ```
-     Proxy中Intercept选项卡，关闭拦截功能“Interception is off”
-     ```
-     ![](/assets/posts/20200328220216.png)
+    ![](/assets/posts/20200328220216.png)
+     > Proxy中Intercept选项卡，关闭拦截功能“Interception is off”  
 
 2. 手机抓包
    - 记录电脑端连接 IP 地址
