@@ -59,4 +59,22 @@ Burp Suite Professional 2.0.09 最新和谐版本是利刃团队免费分享的�
      ```
      ![](/assets/posts/20200328220216.png)
 
-  
+2. 手机抓包
+   - 记录电脑端连接 IP 地址
+     > 如果没有 WiFi 路由器，电脑自带无线网卡的情况下下载360免费WiFi客户端
+   - 设置 Burp 新增本地 WiFi 网卡IP地址 
+     ![](/assets/posts/20200328225511.png)
+   - 导出当前IP段证书
+     > burp.crt
+   - 手机端设置代理  
+     打开手机 WiFi 选择连接的 WiFi 点击进入手动设置服务器(电脑IP)和端口(电脑端口)
+   - 手机端导入 Burp 证书  
+     - 上传到一个可以下载 burp.crt 的网站(Everything)
+     - 获取下载连接
+     - 手机通过 Safari 浏览器打开下载连接
+     - 安装证书
+
+### 相关链接
+1. [抓取手机HTTPS](https://blog.csdn.net/qq_29277155/article/details/52548630)  
+2. [苹果手机导入证书](http://blog.sina.com.cn/s/blog_a03baecd0102xc7l.html)
+
