@@ -24,9 +24,9 @@ permalink: /about
 - 熟练网络安全开发 for WPF
 - 熟练 Python & java开发
 - 熟悉软件开发流程 设计模式
-- 熟悉Axure RP & Visio & PS && Au
+- 熟悉Axure RP & Visio & PS & Au
 - 熟悉代码管理工具git & svn
-- 熟悉抓包工具Burp suite & fiddler 4
+- 熟悉抓包工具Burp Suite & fiddler 4
 
 
 ### 项目经验
