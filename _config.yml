@@ -33,4 +33,4 @@ plugins:
 collections:
   posts:
     output: true
-    permalink: post/:title/.html
+    permalink: post/:title.html
