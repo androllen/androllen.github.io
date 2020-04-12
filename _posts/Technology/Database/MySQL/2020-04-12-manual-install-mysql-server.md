@@ -10,6 +10,7 @@ author: androllen
 
   - [msi版本](http://ftp.ntu.edu.tw/MySQL/Downloads/MySQL-8.0/mysql-8.0.19-winx64.msi)
 
+  - [MySQL Connector/J (Archived Versions)](https://downloads.mysql.com/archives/c-j/)
 ### 解压
   解压到任意文件夹即可
 
