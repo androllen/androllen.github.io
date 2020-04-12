@@ -3,7 +3,6 @@ title: UEFI安装Win10
 date: 2020-03-23 12:57:49  
 tags: win10
 author: androllen 
-permalink: /post/uefi-usb-install-os.html
 ---
 
 ### 前言
