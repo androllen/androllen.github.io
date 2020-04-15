@@ -13,11 +13,9 @@ permalink: post/update-pip-source.html
   cd pip
   cd > pip.ini
   pip.ini
-  ```
-  **把下面的内容复制进去**
-
-  ```
+  # 把下面的内容复制进pip.ini
   [global]
   index-url = https://pypi.tuna.tsinghua.edu.cn/simple
   ```
+
   

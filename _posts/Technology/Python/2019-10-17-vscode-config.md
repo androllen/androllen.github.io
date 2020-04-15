@@ -1,7 +1,7 @@
 ---
 title: VSCode 配置用户片段
 date: 2019-10-17 17:10:37  
-tags: Python
+tags: python
 author: androllen  
 ---
 

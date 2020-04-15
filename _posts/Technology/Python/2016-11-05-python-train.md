@@ -1,7 +1,7 @@
 ---
 title: Python基础训练
 date: 2016-11-05 14:45:37  
-tags: OverView  
+tags: overview  
 categories: Python  
 ---
 
