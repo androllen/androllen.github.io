@@ -13,15 +13,13 @@ author: androllen
   1. mkdir demoDjango
   2. cd demoDjango
   3. code .
-  4. Ctrl + j
-  5. py -m venv env
-  6. Ctrl + Shift + P -> Python: Select Interpreter
-  7. (cache).\envdjango\Scripts\python.exe
-  8. Ctrl + j
-  9. 激活虚拟环境:`.\envdjango\Scripts\activate`
+  4. Ctrl + Shift + P -> Preferences:Open Workspace Settings(JSON)
+  5. Ctrl + Shift + P -> Git:Initialize Repository -> demoDjango
+  6. Ctrl + Shift + P -> Git:Add to .gitignore
+  7. Ctrl + j         -> py -m venv envdjango -> Add env to .gitignore
+  8. Ctrl + Shift + P -> Python: Select Interpreter -> (cached).\envdjango\Scripts\python.exe
+  9. Ctrl + j         -> activate venv:`.\envdjango\Scripts\activate`
   10. pip install django [下载慢请更新淘宝或者清华源](update-pip-source.html)
-  11. django-admin startproject worker .  **注意这里带点跟不带点的区别，自行搜索**
+  11. django-admin startproject worker .  **注意 `这里带点跟不带点的区别，自行搜索`**
   12. py manage.py runserver
-  13. Git:Initialize Repository -> demoDjango
-  14. [下载 gitignore 插件](https://marketplace.visualstudio.com/items?itemName=michelemelluso.gitignore) 添加 .gitignore文件
 
