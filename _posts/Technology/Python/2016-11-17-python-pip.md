@@ -3,6 +3,7 @@ title: Python
 date: 2016-11-04 12:45:37  
 tags: Python
 author: androllen  
+permalink: post/update-pip-source.html
 ---
 
 ### 更换 PIP 源
