@@ -28,3 +28,5 @@ author: androllen
   }
   ```
 
+`Ctrl + j 快速启动虚拟环境`  
+> 前提下已经安装过 Python 虚拟环境
