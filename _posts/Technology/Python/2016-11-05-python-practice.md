@@ -8,7 +8,7 @@ categories: Python
 ![](../../../assets/posts/20191120180921.png)
 
 ### string
-```
+``` bash
 s = 'good morning'
 print(s[0])  # g
 
@@ -30,7 +30,7 @@ print(s[:100])
 ```
 
 ### list
-```
+``` bash
 empty_list = list()
 print(empty_list)
 
@@ -194,15 +194,14 @@ print(s)  # hello YunYun
 
 
 ### tuple
-```
+``` bash
 # 与列表相似，元组Tuple也是个有序序列，但是元组是不可变的，用()生成。
 a = (10, 11, 12, 13, 14)
-a
-print(a)
+print(a) # (10, 11, 12, 13, 14)
 
 # 可以索引，切片：
 c = a[0]
-print(c)
+print(c) #10
 
 c = a[1:3]
 print(c)  # (11, 12)
@@ -210,8 +209,8 @@ print(c)  # (11, 12)
 # 单个元素的元组生成
 # 采用下列方式定义只有一个元素的元组：
 a = (10,)
-print(a)
-print(type(a))  # <type 'tuple'>
+print(a)        # (10,)
+print(type(a))  # <class 'tuple'>
 
 a = [1, 2, 3]
 b = tuple(a)
@@ -225,8 +224,9 @@ print(c)  # 1
 c = a.index(3)
 print(c)  # 索引位置为：2
 ```
+
 ### dict
-```
+``` bash
 # 字典 dictionary ，在一些编程语言中也称为 hash ， map ，
 # 是一种由键值对组成的数据结构。
 
@@ -388,7 +388,7 @@ for key, val in barn.items():
 ```
 
 ### set
-```
+``` bash
 # 列表和字符串都是一种有序序列，而集合 set 是一种无序的序列。
 # 因为集合是无序的，所以当集合中存在两个同样的元素的时候，只会保存其中的一个（唯一性）；
 # 同时为了确保其中不包含同样的元素，集合中放入的元素只能是不可变的对象（确定性）。
@@ -511,7 +511,7 @@ print(a)  # set([1])
 ```
 
 ### import
-```
+``` bash
 # 模块
 # Python会将所有 .py 结尾的文件认定为Python代码文件
 
@@ -532,7 +532,7 @@ from ex import PI, get_sum
 ```
 
 ### file
-```
+``` bash
 # 删除文件：
 import os
 
@@ -600,7 +600,6 @@ with open('newfile.txt', 'w') as f:
 
 # 与 try/exception/finally 效果相同，但更简单。
 ```
-
 
 
 #### 科学技术
