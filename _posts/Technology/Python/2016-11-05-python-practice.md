@@ -607,9 +607,10 @@ with open('newfile.txt', 'w') as f:
 - 二维图 `plot`
 
 #### 教程
-- [python-tutorial](https://github.com/shibing624/python-tutorial)
+- [w3schools python tutorial](https://www.w3schools.com/python/default.asp)
+- [python tutorial](https://github.com/shibing624/python-tutorial)
 - [Python进阶](https://github.com/eastlakeside/interpy-zh)
-- [Python-100-Days](https://github.com/jackfrued/Python-100-Days)
-- [awesome-python](https://github.com/vinta/awesome-python)
-- [python36patterns](https://github.com/ydf0509/python36patterns)
+- [Python 100 Days](https://github.com/jackfrued/Python-100-Days)
+- [awesome python](https://github.com/vinta/awesome-python)
+- [python36 patterns](https://github.com/ydf0509/python36patterns)
 - [Effective Python source code](https://github.com/bslatkin/effectivepython)
