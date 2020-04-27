@@ -1,17 +1,72 @@
 ---
-title: dev tool for windows  
+title: 开发工具 & 官网 
 date: 2016-12-09 15:09:33  
-tags: DEVTool
+tags: tool dev official
 categories: 工具  
 ---
-### 优秀的软件
 
+
+
+### 浏览器
+工具名称|说明|下载地址
+-----|-----|----
+Firefox|浏览器|[下载地址](http://ftp.mozilla.org/pub/firefox/releases/75.0/win64/en-US/)
+
+### 数据库
+工具名称|说明|下载地址
+-----|-----|----
+sqlitebrowser|`SQLite` 数据库工具|[sqlitebrowser](https://sqlitebrowser.org/dl/)|
+
+### 远程连接
+工具名称|说明|下载地址
+-----|-----|----
+Xshell and Xftp|SSH 和SFTP/FTP客户端 |[Xshell and Xftp 个人使用版](https://www.netsarang.com/zh/free-for-home-school/)| 
+WinSCP |SSH 的开源图形化 SFTP 客户端|[Putty](https://winscp.net/eng/docs/lang:chs)|
+
+### 搜索工具
+工具名称|下载地址|说明
+-----|-----|----
+Everything官网|[http://www.voidtools.com/downloads/](http://www.voidtools.com/downloads/)|文件搜索工具
+
+### 刻盘工具
+工具名称|说明|下载地址
+-----|-----|----
+Rufus|帮助格式化和创建可引导USB闪存盘|[下载地址](https://github.com/pbatard/rufus/releases/download/v3.9/rufus-3.9p.exe)
+
+### 文本编辑
+工具名称|下载地址|说明
+-----|-----|----
+sublimetext3官网|[http://www.sublimetext.com/3](http://www.sublimetext.com/3)|文本编辑
+
+### 代码管理
+工具名称|下载地址|说明
+-----|-----|----
+git|[https://git-scm.com](https://git-scm.com)|代码管理工具
+
+
+### 清理垃圾
+工具名称|说明|下载地址
+-----|-----|----
+SpaceSniffer|直观查看硬盘占用|[下载地址](https://pc.qq.com/search.html#!keyword=SpaceSniffer)
+dism++| 清理内存垃圾|[下载地址](http://www.chuyu.me/zh-Hans/)
+
+### 抓包工具
+工具名称|下载地址|说明
+---|----|------
+wireshark|[下载地址](https://www.wireshark.org/download.html)|数据抓取
+mitmproxy|[下载地址](https://www.mitmproxy.org/)|
+BurpSuits|[下载地址](https://portswigger.net/burp)|
+
+### 磁力链接 
+[种子转磁力链接](http://www.torrent.org.cn/)
+
+
+### 优秀的软件
 工具名称|下载地址|描述
 ---|----|------
-git|[https://git-scm.com](https://git-scm.com)|代码管理工具
 yasm|[http://yasm.tortall.net/](http://yasm.tortall.net/)|
 msys2|[http://msys2.github.io/](http://msys2.github.io/)|  
-MinGW|[http://www.mingw.org/](http://www.mingw.org/)|命令行
+MinGW|[http://www.mingw.org/](http://www.mingw.org/)|
 Python官网|[https://www.python.org/](https://www.python.org/)|网站语言
 Curl官网|[https://curl.haxx.se/download.html](https://curl.haxx.se/download.html)|命令行工具
 NuGet官网|[https://www.nuget.org/](https://www.nuget.org/)|资源包库
@@ -19,23 +74,12 @@ ffmpeggit|[http://ffmpeg.org/](http://www.ffmpeg.org/download.html)|音视频编
 UMLet|[http://www.umlet.com](http://www.umlet.com)|快速生成UML图表
 Docker官网|[https://docs.docker.com/engine/installation/](https://docs.docker.com/engine/installation/)
 Homebrew官网|[http://brew.sh/index_zh-cn.html](http://brew.sh/index_zh-cn.html)|命令行工具
-Everything官网|[http://www.voidtools.com/downloads/](http://www.voidtools.com/downloads/)|文件搜索工具
-sublimetext3官网|[http://www.sublimetext.com/3](http://www.sublimetext.com/3)|文本编辑
 Sqlite SDK|[https://www.sqlite.org/](https://www.sqlite.org/download.html)
-wireshark官网|[https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)|数据抓取
+wireshark官网|
 微信公众平台官网|[https://mp.weixin.qq.com/](https://mp.weixin.qq.com/)  
 itellyou|[https://msdn.itellyou.cn/](https://msdn.itellyou.cn/)  
 msdnHk|[http://www.msdn.hk/](http://www.msdn.hk/) 
 msdnSu|[https://msdn.itellyou.cn/](https://msdn.itellyou.cn/) 
-sqlitebrowser|[sqlitebrowser](https://sqlitebrowser.org/dl/)|数据库管理查看工具
-SSH 连接管理工具|[Xshell and Xftp 个人使用版](https://www.netsarang.com/zh/free-for-home-school/)|SSH和SFTP/FTP客户端
 
-
-
-软件|用途|说明|下载地址
------|----|-----|----
-SpaceSniffer|直观查看硬盘占用|安装新系统之前最好使用查看一下文件夹|[下载地址](https://pc.qq.com/search.html#!keyword=SpaceSniffer)
-dism++| 清理内存垃圾|插件|[下载地址](http://www.chuyu.me/zh-Hans/)
-Rufus|USB便携启动盘|可以帮助格式化和创建可引导USB闪存盘的工具|[下载地址](https://github.com/pbatard/rufus/releases/download/v3.9/rufus-3.9p.exe)
 
 https://sphard.com/

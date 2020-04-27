@@ -87,10 +87,10 @@ author: androllen
   ```
 
 
-- 安装 openssh
+- 安装 openssh  
 sudo apt-get install openssh-server
 
-- 安装阿里源
+- 安装阿里源  
   如果安装系统的时候，没有设置源请安装下面的步骤操作，已设置请忽略
   ``` bash
   # 使用 putty 远程连接自行 Google
@@ -115,7 +115,7 @@ sudo apt-get update
 - 安装 docker  
 sudo apt-get install docker.io docker-compose
 
-- 从 cats 远程服务器迁移数据到新系统  
+- [从 cats 远程服务器迁移数据到新系统](https://www.cnblogs.com/Tang-Yuan/p/11504434.html)  
 sudo rsync -av cats@192.168.0.100:/home/cats/env /home/cats
 
 - 磁盘空间大小  
