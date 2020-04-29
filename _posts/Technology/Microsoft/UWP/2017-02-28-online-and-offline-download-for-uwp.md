@@ -5,12 +5,13 @@ categories: UWP
 tags: 开源  
 ---
 
-# HttpWebRequest 满足以下几点
+## HttpWebRequest 满足以下几点
+>
 > * 在线
-> * 断点续传   
+> * 断点续传
 > * 下载进度
 > * 后台任务（未完成）
-   
+
         public async void simpleDownload(IAsyncResult asynchronousResult)
         {
             long currentLength = 0L;
@@ -106,4 +107,4 @@ tags: 开源
 ***  
 > 在请求之前一定要给Headers 赋值 range 范围，通知服务器从那里开始下载，打开文件从当前文件流开始写入
 
-另外一个实现：http://lufred.github.io/2016/05/16/Breakpoint-Continuingly
+另外一个实现：<http://lufred.github.io/2016/05/16/Breakpoint-Continuingly>

@@ -12,7 +12,6 @@ tags: U盘 镜像 系统
 
 于是本文教你如何一步一步在 Windows RE 环境下安装操作系统。
 
-
 ### 准备工作
 
 1. Windows 10 的安装文件  `cn_windows_10_consumer_editions_version_1809_updated_jan_2019_x64_dvd_34b4d4fb.iso`

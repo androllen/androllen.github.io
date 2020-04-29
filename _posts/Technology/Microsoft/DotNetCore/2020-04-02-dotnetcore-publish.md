@@ -5,11 +5,11 @@ categories: DotNetCore
 ---
 
 - GUI发布  
-  ![](/assets/posts/20200402180757.png)  
-  ![](/assets/posts/20200402180758.png)
+  ![view](/assets/posts/20200402180757.png)  
+  ![view](/assets/posts/20200402180758.png)
 - 命令行发布  
-  ![](/assets/posts/20200402182927.png)  
-  ```
+  ![view](/assets/posts/20200402182927.png)  
+
+  ``` bash
   dotnet publish -r win-x86 -c Release /p:PublishSingleFile=true /p:PublishTrimmed=true
   ```
-

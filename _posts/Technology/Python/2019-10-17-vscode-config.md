@@ -6,8 +6,9 @@ author: androllen
 ---
 
 ### 配置 Python 文首注释
-  - Manage or Preferences -> User Snippets -> python
-  - 将下面的内容复制进去
+
+- Manage or Preferences -> User Snippets -> python
+- 将下面的内容复制进去
 
   ``` bash
   {

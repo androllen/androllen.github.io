@@ -18,12 +18,11 @@ Firefox|浏览器|[下载地址](http://ftp.mozilla.org/pub/firefox/releases/75.
 sqlitebrowser|**SQLite** 数据库工具|[sqlitebrowser](https://sqlitebrowser.org/dl/)
 Sqlite SDK||[https://www.sqlite.org/](https://www.sqlite.org/download.html)
 
-
 ### 远程连接
 
 工具名称|说明|下载地址
 -----|-----|-----
-Xshell and Xftp|SSH 和SFTP/FTP客户端 |[Xshell and Xftp 个人使用版](https://www.netsarang.com/zh/free-for-home-school/)| 
+Xshell and Xftp|SSH 和SFTP/FTP客户端 |[Xshell and Xftp 个人使用版](https://www.netsarang.com/zh/free-for-home-school/)
 WinSCP |SSH 的开源图形化 SFTP 客户端|[Putty](https://winscp.net/eng/docs/lang:chs)
 
 ### 搜索工具
@@ -50,7 +49,6 @@ sublimetext3官网|文本编辑|[http://www.sublimetext.com/3](http://www.sublim
 -----|-----|-----
 git|代码管理工具|[https://git-scm.com](https://git-scm.com)
 
-
 ### 清理垃圾  
 
 工具名称|说明|下载地址
@@ -66,7 +64,8 @@ wireshark|数据抓取|[下载地址](https://www.wireshark.org/download.html)
 mitmproxy||[下载地址](https://www.mitmproxy.org/)
 BurpSuits||[下载地址](https://portswigger.net/burp)
 
-### 磁力链接 
+### 磁力链接
+
 [种子转磁力链接](http://www.torrent.org.cn/)
 
 ### 下载工具

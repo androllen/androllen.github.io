@@ -6,6 +6,7 @@ tags: Kms CMD
 
 
 ## 概述
+
 之前一直不知道怎么去完美的激活windows系统，直到知道了这个，网上的激活软件真的我靠激活后可能会有一大堆垃圾软件在后台下载，算了不说了windows就是这个德行，远离windows保平安。  
 话不多说，我们搭建一个windows激活服务来激活虚拟机中的windows7 所以首先要有一台windows7虚拟机，记住该服务允许激活批量授权的windows系统包括批量授权的office，具体的你测试，终于可以在给别人装完系统不漫天百度找激活工具了.
 
@@ -14,9 +15,8 @@ tags: Kms CMD
 |Deploy KMS Activation|[软件地址](https://docs.microsoft.com/zh-cn/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn502531(v=ws.11))|
 |vlmcsd |[软件地址](https://github.com/Wind4/vlmcsd)  
 
-
-
 ### 部署  
+
 首先下载 `wget https://github.com/Wind4/vlmcsd/releases/download/svn1111/binaries.tar.gz`  
 解压 `tar -zxvf binaries.tar.gz`  
 之后进入这个文件夹  `cd binaries/Linux/intel/static/`  
@@ -29,7 +29,8 @@ tags: Kms CMD
 执行 `C:\binaries\Windows\intel>vlmcs-Windows-x64.exe -v -l 3 192.168.1.100`
 
 ### Request Parameters
-```
+
+``` bash
 Protocol version                : 6.0
 Client is a virtual machine     : No
 Licensing status                : 2 (OOB grace)
@@ -53,8 +54,8 @@ Performing RPC bind ...
 Sending activation request (KMS V6) 1 of 1
 ```
 
-
 ### Response from KMS server
+
 ``` bash
 Size of KMS Response            : 260 (0x104)
 Protocol version                : 6.0
@@ -78,9 +79,10 @@ Activation interval policy      : 120
 查看激活时间 `slmgr /xpr`
 
 ### 激活office
+
 使用管理员权限打开cmd
 
-```
+``` bash
 PS C:\WINDOWS\system32> d:
 PS D:\> cd "D:\Program Files (x86)\Microsoft Office\Office15"
 PS D:\Program Files (x86)\Microsoft Office\Office15> cscript ospp.vbs /sethst:kms.03k.org

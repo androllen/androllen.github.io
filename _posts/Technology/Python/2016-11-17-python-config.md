@@ -7,6 +7,7 @@ permalink: post/update-pip-source.html
 ---
 
 ### 更换 PIP 源
+
   ``` bash
   cmd
   mkdir pip
@@ -17,5 +18,3 @@ permalink: post/update-pip-source.html
   [global]
   index-url = https://pypi.tuna.tsinghua.edu.cn/simple
   ```
-
-  

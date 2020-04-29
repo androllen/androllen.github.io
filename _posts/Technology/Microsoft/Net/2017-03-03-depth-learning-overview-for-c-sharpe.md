@@ -13,5 +13,5 @@ categories: 技术
 
 IoC容器：依赖注入的框架，用来映射依赖，管理对象创建和生存周期（DI框架）。  
 
-http://www.cnblogs.com/liuhaorain/p/3747470.html  
-http://www.cnblogs.com/leoo2sk/archive/2009/06/17/di-and-ioc.html
+<http://www.cnblogs.com/liuhaorain/p/3747470.html>  
+<http://www.cnblogs.com/leoo2sk/archive/2009/06/17/di-and-ioc.html>

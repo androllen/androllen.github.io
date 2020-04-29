@@ -4,15 +4,15 @@ date: 2016-12-09 15:07:19
 tags: CMD  
 ---
 
-```
+``` bash
 C:\Users\Androllen>d:  
 
 D:\>cd "\Program Files (x86)\Visual Studio 2015\Git\Win10 UWP\FFmpegInterop"  
 > 中间有空格的要加双引号  
 D:\Program Files (x86)\Visual Studio 2015\Git\Win10 UWP\FFmpegInterop>  
-<!-- more --> 
-D:\FFmpegInterop\ffmpeg>cd \FFmpegInterop 
-> 从本层文件夹跳到上层   
+<!-- more -->
+D:\FFmpegInterop\ffmpeg>cd \FFmpegInterop
+> 从本层文件夹跳到上层
 D:\FFmpegInterop>  
 
 D:\Program Files (x86)\Nuget>cd \Program Files (x86)  
@@ -31,6 +31,6 @@ D:\Program Files (x86)\Visual Studio 2015\Git\Win10 UWP\DemoControl\CCUWPToolkit
 | DEL 删除至少一个文件     | explorer dirname 打开指定任意目录 |
 
 获取hash值 打开PowerShell命令校验文件  
-PS D:\Desktop> get-filehash D:\Desktop\Test.md -Algorithm SHA1   
+PS D:\Desktop> get-filehash D:\Desktop\Test.md -Algorithm SHA1
 获取hash值 打开cmd命令校验文件  
 D:\Desktop> certutil -hashfile D:\Desktop\Test.md md5  

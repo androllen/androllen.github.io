@@ -8,4 +8,4 @@ tags: Build Debug
 1. File -> Reload with Encoding -> Chinese Simplified(GBK)  
 ![ConvertToUTF8](/images/20171216000158.png)  
 
-For more information, please visit: https://github.com/seanliang/ConvertToUTF8
+For more information, please visit: <https://github.com/seanliang/ConvertToUTF8>

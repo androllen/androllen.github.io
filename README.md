@@ -1,15 +1,18 @@
-### 推荐：
+# 推荐
+
 - [hexo 完整教程](http://theme-next.iissnan.com/getting-started.html)  
 - [minima of jekyll](https://github.com/jekyll/minima)
 
-### 个人博客：
-- http://PerryDu.github.io  
-- http://chitanda.github.io  
-- http://FingerArt.github.io  
-- https://github.com/hanxi/blog
+## 个人博客
 
-### 相关链接：  
-- [customizing-github-pages](https://help.github.com/categories/customizing-github-pages/) 
+- <http://PerryDu.github.io>  
+- <http://chitanda.github.io>  
+- <http://FingerArt.github.io>  
+- <https://github.com/hanxi/blog>
+
+### 相关链接  
+
+- [customizing-github-pages](https://help.github.com/categories/customizing-github-pages/)
 - [https://github.com/wuhaoworld/github-issues-blog](https://github.com/wuhaoworld/github-issues-blog)
 - [Theme preview](https://jekyll.github.io/minima/)
 - [hexo 文档](https://hexo.io/zh-cn/docs/index.html)  
@@ -19,12 +22,11 @@
 - [如何为开源做贡献](https://opensource.guide/zh-cn/how-to-contribute/)
 - [如何选择License](https://choosealicense.com/)
 - [jekyll-new](https://github.com/jglovier/jekyll-new)
-- https://github.com/shopify/liquid/wiki/liquid-for-designers  
-- http://jekyllrb.com/docs/frontmatter/  
-- https://pages.github.com/  
-- https://help.github.com/categories/github-pages-basics/  
-- http://jekyllrb.com/docs/configuration/  
-- http://beiyuu.com/github-pages  
-- http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html  
-- http://blog.csdn.net/v123411739/article/details/44964065  
-
+- <https://github.com/shopify/liquid/wiki/liquid-for-designers>  
+- <http://jekyllrb.com/docs/frontmatter/>  
+- <https://pages.github.com/>  
+- <https://help.github.com/categories/github-pages-basics/>  
+- <http://jekyllrb.com/docs/configuration/>  
+- <http://beiyuu.com/github-pages>  
+- <http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html>  
+- <http://blog.csdn.net/v123411739/article/details/44964065>  

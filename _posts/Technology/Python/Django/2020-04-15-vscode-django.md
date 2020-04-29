@@ -6,10 +6,12 @@ author: androllen
 ---
 
 ### 准备
+
 [下载 V1.44.1 VSCode](https://code.visualstudio.com/?wt.mc_id=vscom_downloads)  
 [下载 V3.7.x  Python](https://www.python.org/)
 
 ### 快速创建 Django
+
   1. mkdir demoDjango
   2. cd demoDjango
   3. code .
@@ -22,4 +24,3 @@ author: androllen
   10. pip install django [下载慢请更新淘宝或者清华源](update-pip-source.html)
   11. django-admin startproject worker .  **注意 `这里带点跟不带点的区别，自行搜索`**
   12. py manage.py runserver
-
