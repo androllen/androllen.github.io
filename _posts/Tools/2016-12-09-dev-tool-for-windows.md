@@ -5,52 +5,59 @@ tags: tool dev official
 categories: 工具  
 ---
 
-
-
 ### 浏览器
+
 工具名称|说明|下载地址
------|-----|----
+-----|-----|-----
 Firefox|浏览器|[下载地址](http://ftp.mozilla.org/pub/firefox/releases/75.0/win64/en-US/)
 
 ### 数据库
+
 工具名称|说明|下载地址
------|-----|----
+-----|-----|-----
 sqlitebrowser|`SQLite` 数据库工具|[sqlitebrowser](https://sqlitebrowser.org/dl/)|
 
 ### 远程连接
+
 工具名称|说明|下载地址
------|-----|----
+-----|-----|-----
 Xshell and Xftp|SSH 和SFTP/FTP客户端 |[Xshell and Xftp 个人使用版](https://www.netsarang.com/zh/free-for-home-school/)| 
 WinSCP |SSH 的开源图形化 SFTP 客户端|[Putty](https://winscp.net/eng/docs/lang:chs)|
 
 ### 搜索工具
+
 工具名称|下载地址|说明
------|-----|----
+-----|-----|-----
 Everything官网|[http://www.voidtools.com/downloads/](http://www.voidtools.com/downloads/)|文件搜索工具
 
 ### 刻盘工具
+
 工具名称|说明|下载地址
------|-----|----
+-----|-----|-----
 Rufus|帮助格式化和创建可引导USB闪存盘|[下载地址](https://github.com/pbatard/rufus/releases/download/v3.9/rufus-3.9p.exe)
 
 ### 文本编辑
+
 工具名称|下载地址|说明
------|-----|----
+-----|-----|-----
 sublimetext3官网|[http://www.sublimetext.com/3](http://www.sublimetext.com/3)|文本编辑
 
 ### 代码管理
+
 工具名称|下载地址|说明
------|-----|----
+-----|-----|-----
 git|[https://git-scm.com](https://git-scm.com)|代码管理工具
 
 
-### 清理垃圾
+### 清理垃圾  
+
 工具名称|说明|下载地址
------|-----|----
+-----|-----|-----
 SpaceSniffer|直观查看硬盘占用|[下载地址](https://pc.qq.com/search.html#!keyword=SpaceSniffer)
 dism++| 清理内存垃圾|[下载地址](http://www.chuyu.me/zh-Hans/)
 
-### 抓包工具
+### 抓包工具  
+
 工具名称|下载地址|说明
 ---|----|------
 wireshark|[下载地址](https://www.wireshark.org/download.html)|数据抓取
@@ -62,6 +69,7 @@ BurpSuits|[下载地址](https://portswigger.net/burp)|
 
 
 ### 优秀的软件
+
 工具名称|下载地址|描述
 ---|----|------
 yasm|[http://yasm.tortall.net/](http://yasm.tortall.net/)|
@@ -80,6 +88,4 @@ wireshark官网|
 itellyou|[https://msdn.itellyou.cn/](https://msdn.itellyou.cn/)  
 msdnHk|[http://www.msdn.hk/](http://www.msdn.hk/) 
 msdnSu|[https://msdn.itellyou.cn/](https://msdn.itellyou.cn/) 
-
-
 https://sphard.com/
