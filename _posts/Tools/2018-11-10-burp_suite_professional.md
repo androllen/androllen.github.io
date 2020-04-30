@@ -30,7 +30,7 @@ categories: Test Tools
    - 记录电脑端连接 IP 地址
      > 如果没有 WiFi 路由器，电脑自带无线网卡的情况下下载360免费WiFi客户端
    - 设置 Burp 新增本地 WiFi 网卡IP地址
-     ![1](/assets/posts/20200328225511.png)
+     ![ip](/assets/posts/20200328225511.png)
    - 导出当前IP段证书
      > burp.crt
    - 手机端设置代理  
