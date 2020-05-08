@@ -211,9 +211,9 @@ author: androllen
   ``` bash
     mysqld --install
     mysqld --initialize --console
+    # 2020-05-08T06:16:24.807158Z 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: eugpo8khwJ:g
   ```
 
-- 记住默认初始密码！！！
 - 然后输入：  
  `net start mysql`
 - 首次登录：
@@ -225,6 +225,7 @@ author: androllen
 - 重新修改密码
 
  ``` bash
+  # ERROR 1820 (HY000): You must reset your password using ALTER USER statement before executing this statement.
   mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
   mysql> exit
   ```
@@ -233,6 +234,6 @@ author: androllen
 
   ``` bash
   mysql -uroot -p
-  # 输入密码后登录成功
+  Enter password: **** # 输入密码
   mysql> exit
   ```
