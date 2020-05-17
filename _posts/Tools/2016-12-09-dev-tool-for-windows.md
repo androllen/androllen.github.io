@@ -64,17 +64,16 @@ categories: 工具
 | mitmproxy |          | [下载地址](https://www.mitmproxy.org/)              |
 | BurpSuits |          | [下载地址](https://portswigger.net/burp)            |
 
-### 磁力链接
-
-[种子转磁力链接](http://www.torrent.org.cn/)
 
 ### 下载工具 Download Utility
 
 | 工具名称     | 说明           | 下载地址                                                                                                              |
 | ------------ | -------------- | --------------------------------------------------------------------------------------------------------------------- |
 | Curl官网     | 命令行下载工具 | [https://curl.haxx.se/download.html](https://curl.haxx.se/download.html)                                              |
-| CDM          | 桌面下载工具   | [Internet-Download-Manager](https://www.softpedia.com/get/Internet/Download-Managers/Internet-Download-Manager.shtml) |
+| IDM          | 桌面下载工具   | [Internet-Download-Manager](https://www.softpedia.com/get/Internet/Download-Managers/Internet-Download-Manager.shtml) |
 | Homebrew官网 | 命令行下载工具 | [http://brew.sh/index_zh-cn.html](http://brew.sh/index_zh-cn.html)                                                    |
+|Qbittorrent|种子&磁力连接下载工具 |[https://www.qbittorrent.org/download.php](https://www.qbittorrent.org/download.php)
+|None|种子转磁力链接|[还没找到](http://www.torrent.org.cn/)
 
 ### 镜像 images
 
