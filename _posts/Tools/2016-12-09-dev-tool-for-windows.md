@@ -23,7 +23,7 @@ categories: 工具
 | 工具名称        | 说明                         | 下载地址                                                                         |
 | --------------- | ---------------------------- | -------------------------------------------------------------------------------- |
 | Xshell and Xftp | SSH 和SFTP/FTP客户端         | [Xshell and Xftp 个人使用版](https://www.netsarang.com/zh/free-for-home-school/) |
-| WinSCP          | SSH 的开源图形化 SFTP 客户端 | [Putty](https://winscp.net/eng/docs/lang:chs)                                    |
+| WinSCP          | SSH 的开源图形化 SFTP 客户端 | [WinSCP Portable](https://winscp.net/download/WinSCP-5.17.5-Portable.zip)                                    |
 
 ### 搜索工具 Search Utility
 
@@ -64,17 +64,16 @@ categories: 工具
 | mitmproxy |          | [下载地址](https://www.mitmproxy.org/)              |
 | BurpSuits |          | [下载地址](https://portswigger.net/burp)            |
 
-### 磁力链接
-
-[种子转磁力链接](http://www.torrent.org.cn/)
 
 ### 下载工具 Download Utility
 
 | 工具名称     | 说明           | 下载地址                                                                                                              |
 | ------------ | -------------- | --------------------------------------------------------------------------------------------------------------------- |
 | Curl官网     | 命令行下载工具 | [https://curl.haxx.se/download.html](https://curl.haxx.se/download.html)                                              |
-| CDM          | 桌面下载工具   | [Internet-Download-Manager](https://www.softpedia.com/get/Internet/Download-Managers/Internet-Download-Manager.shtml) |
+| IDM          | 桌面下载工具   | [Internet-Download-Manager](https://www.softpedia.com/get/Internet/Download-Managers/Internet-Download-Manager.shtml) |
 | Homebrew官网 | 命令行下载工具 | [http://brew.sh/index_zh-cn.html](http://brew.sh/index_zh-cn.html)                                                    |
+|Qbittorrent|种子&磁力连接下载工具 |[https://www.qbittorrent.org/download.php](https://www.qbittorrent.org/download.php)
+|None|种子转磁力链接|[还没找到](http://www.torrent.org.cn/)
 
 ### 镜像 images
 
@@ -95,6 +94,15 @@ categories: 工具
 | 工具名称 | 说明                               | 下载地址                                              |
 | -------- | ---------------------------------- | ----------------------------------------------------- |
 | Cairo    | 这是一个2D图形库，支持多种输出设备 | <https://www.lfd.uci.edu/~gohlke/pythonlibs/#pycairo> |
+
+
+### 加壳工具 Protect .NET Application Utility
+
+| 工具名称 | 说明                               | 下载地址                                              |
+| -------- | ---------------------------------- | ----------------------------------------------------- |
+| ILProtector    | ILProtector is a protector for .NET applications | <http://www.vgrsoft.net/Download/ILProtector> |
+
+
 
 ### 官方开发站点 Dev Official
 
