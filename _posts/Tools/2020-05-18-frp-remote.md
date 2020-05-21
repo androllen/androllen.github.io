@@ -28,11 +28,9 @@ tags: frp remote
     sudo mkdir frp
     cd frp/
     sudo wget https://github.com/fatedier/frp/releases/download/v0.33.0/frp_0.33.0_linux_amd64.tar.gz
-    tar zxvf frp_0.33.0_linux_amd64.tar.gz
+    tar -xzvf frp_0.33.0_linux_amd64.tar.gz
 
     ```
-
-  - Windows 服务
 
 - 服务端配置  
   使用默认配置文件 frps.ini
@@ -40,6 +38,9 @@ tags: frp remote
 - 服务端启动  
   - Linux  
   `./frps -c ./frps.ini`
+
+    后台运行 nohup ./frps -c frps.ini >/dev/null 2>&1 &
+
   - Windows  
   `c:\frp\frps.exe -c c:\frp\frps.ini`
 
@@ -47,6 +48,7 @@ tags: frp remote
   - Windows
 
     ```sh
+    # 保存为 frpc.ini
     [common]
     server_addr = Your VPS IP address
     server_port = 7000
@@ -63,18 +65,64 @@ tags: frp remote
     remote_port = 7002
     ```
 
-    可以变成一个批处理启动文件
+    - 第一种方式
 
-    `cmd /c " "D:\Program Files\frp\frpc.exe" -c ./frpc.ini "`  
+      ```sh
+      # 保存为 frpc.bat 文件,双击批处理启动
+      cmd /c " "D:\Program Files\frp\frpc.exe" -c ./frpc.ini "
+      ```
 
-    以上内容保存 `frpc.bat` 双击启动
+    - 第二种方式
+
+      ```sh
+      # 保存为 frpc.vbs 文件
+      set ws=WScript.CreateObject("WScript.Shell")
+      ws.Run "d:\frp\frpc.exe -c d:\frp\frpc.ini",0
+      ```
+
+      `WIN+R` 运行 `Shell:startup` 把 `frpc.vbs` 脚本放进去即可
+
+    - 第三种方式
+
+      用 [winsw](https://github.com/winsw/winsw/releases) 将 frp 注册为系统服务  
+      `winsw.exe` 放到frp相同的目录里
+
+      ```sh
+      # 保存为 winsw.xml
+      <service>
+          <id>frp</id>
+          <name>frp这里是服务的名称</name>
+          <description>这里是服务的介绍，随便写</description>
+          <executable>frpc</executable>
+          <arguments>-c frpc.ini</arguments>
+          <onfailure action="restart" delay="60 sec"/>
+          <onfailure action="restart" delay="120 sec"/>
+          <logmode>reset</logmode>
+      </service>
+      ```
+
+      以管理员权限打开一个命令窗口，cd到frp所在目录，执行：
+
+      ```sh
+      # winsw 是执行程序
+      winsw install
+      winsw start
+      ```
+
+      卸载服务
+
+      ```sh
+      winsw stop
+      winsw uninstall
+      ```
 
   - Linux  
     - 添加启动服务
 
         vim /etc/frp/frp_0.33.0_linux_amd64/frps.service
 
-        ```cmd
+        ```sh
+        # 保存为 frps.service
         [Unit]
         Description=frpc
         After=network.target
@@ -87,8 +135,6 @@ tags: frp remote
         WantedBy=multi-user.target
         ```
 
-      保存为 frps.service 文件
-
     - 设置开机启动  
     `systemctl enable frps.service`  
     - 关闭开机启动  
@@ -97,7 +143,6 @@ tags: frp remote
     `systemctl start frps.service`
     - 查看状态  
     `systemctl status frps.service`
-    同样服务端也可以设置
 
 - RDP  
   - 打开 `RDP` 软件  
