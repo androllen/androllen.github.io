@@ -17,10 +17,12 @@ tags: frp remote
 - Rdp 协议的微软远程工具 [下载地址](https://www.microsoft.com/store/productId/9NBLGGH30H88)
 
 - [frp 下载地址](https://github.com/fatedier/frp/releases)
+
 ### 开始
 
 - 登录到VPS  
   - 使用 winscp 登录到远程服务器 VPS 上，具体操作请看 [登录远程服务器](https://github.com/androllen/WeWSL/blob/master/0x02-WSL/05.WSL_Xshell_Xftp/README.md)
+
     ```sh
     cd /etc
     sudo mkdir frp
@@ -28,22 +30,22 @@ tags: frp remote
     sudo wget https://github.com/fatedier/frp/releases/download/v0.33.0/frp_0.33.0_linux_amd64.tar.gz
     tar zxvf frp_0.33.0_linux_amd64.tar.gz
 
-    ``` 
-   - Windows 服务
-    
+    ```
+
+  - Windows 服务
 
 - 服务端配置  
   使用默认配置文件 frps.ini
 
 - 服务端启动  
   - Linux  
-  `./frps -c ./frps.ini` 
+  `./frps -c ./frps.ini`
   - Windows  
   `c:\frp\frps.exe -c c:\frp\frps.ini`
 
-
 - 客户端配置
   - Windows
+
     ```sh
     [common]
     server_addr = Your VPS IP address
@@ -58,22 +60,24 @@ tags: frp remote
     type = tcp
     local_ip = 192.168.0.2
     local_port = 2232
-    remote_port = 7002    
+    remote_port = 7002
     ```
+
     可以变成一个批处理启动文件
 
     `cmd /c " "D:\Program Files\frp\frpc.exe" -c ./frpc.ini "`  
-    
+
     以上内容保存 `frpc.bat` 双击启动
 
   - Linux  
     - 添加启动服务
+
         ```cmd
-        [Unit] 
+        [Unit]
         Description=frpc
         After=network.target
 
-        [Service] 
+        [Service]
         Type=simple
         ExecStart= /etc/frp/frp_0.33.0_linux_amd64/frps -c /etc/frp/frp_0.33.0_linux_amd64/frps.ini
 
@@ -82,7 +86,7 @@ tags: frp remote
         ```
 
     - 设置开机启动  
-    `systemctl enable chandao.service `  
+    `systemctl enable chandao.service`  
     - 关闭开机启动  
     `systemctl disable xxx.service`
     - 开启服务  
@@ -90,19 +94,18 @@ tags: frp remote
 
     同样服务端也可以设置
 
-- RDP
-  打开 `RDP` 软件
-  - 点击右上角 +   
+- RDP  
+  - 打开 `RDP` 软件  
+  - 点击右上角 +
   - ![input ip](../../assets/posts/20200521000231.jpg)  
   - ![username](../../assets/posts/20200521000331.jpg)  
   - 点击连接
- 
 
-- 问题-
+- 问题
   1. 连不上的可能是你的防火墙关闭或者7000端口没有开放
-   - Windows  
-       netstat -ano|findstr 7000  
-   - Linux  
-       netstat -anp|grep 7000
-  2. 客户端批处理文件
+     - Windows  
+      `netstat -ano|findstr 7000`
+     - Linux  
+      `netstat -anp|grep 7000`
+  1. 客户端批处理文件
   如果包含路径中包含空格使用以上双引号，如果不包含则不用。
