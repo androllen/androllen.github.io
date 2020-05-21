@@ -72,6 +72,8 @@ tags: frp remote
   - Linux  
     - 添加启动服务
 
+        vim /etc/frp/frp_0.33.0_linux_amd64/frps.service
+
         ```cmd
         [Unit]
         Description=frpc
@@ -85,13 +87,16 @@ tags: frp remote
         WantedBy=multi-user.target
         ```
 
+      保存为 frps.service 文件
+
     - 设置开机启动  
-    `systemctl enable chandao.service`  
+    `systemctl enable frps.service`  
     - 关闭开机启动  
-    `systemctl disable xxx.service`
+    `systemctl disable frps.service`
     - 开启服务  
     `systemctl start frps.service`
-
+    - 查看状态  
+    `systemctl status frps.service`
     同样服务端也可以设置
 
 - RDP  
@@ -107,5 +112,5 @@ tags: frp remote
       `netstat -ano|findstr 7000`
      - Linux  
       `netstat -anp|grep 7000`
-  1. 客户端批处理文件
+  2. 客户端批处理文件
   如果包含路径中包含空格使用以上双引号，如果不包含则不用。
