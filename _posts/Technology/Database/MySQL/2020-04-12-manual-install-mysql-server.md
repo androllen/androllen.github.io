@@ -15,7 +15,7 @@ author: androllen
   
 ### 准备
 
-- 解压到
+- 解压到  
   `D:\Program Files\MySQL\MySQL Server 8.0`
 
   ```sh
@@ -26,7 +26,7 @@ author: androllen
   └─share
   ```
 
-- 系统环境变量
+- 系统环境变量  
   `D:\Program Files\MySQL\MySQL Server 8.0\bin`
 
 ### 新建
