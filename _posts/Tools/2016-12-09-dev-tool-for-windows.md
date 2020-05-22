@@ -23,7 +23,7 @@ categories: 工具
 | 工具名称        | 说明                         | 下载地址                                                                         |
 | --------------- | ---------------------------- | -------------------------------------------------------------------------------- |
 | Xshell and Xftp | SSH 和SFTP/FTP客户端         | [Xshell and Xftp 个人使用版](https://www.netsarang.com/zh/free-for-home-school/) |
-| WinSCP          | SSH 的开源图形化 SFTP 客户端 | [WinSCP Portable](https://winscp.net/download/WinSCP-5.17.5-Portable.zip)                                    |
+| WinSCP          | SSH 的开源图形化 SFTP 客户端 | [WinSCP Portable](https://winscp.net/eng/download.php)                                    |
 
 ### 搜索工具 Search Utility
 

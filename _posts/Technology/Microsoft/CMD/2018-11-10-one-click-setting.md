@@ -8,16 +8,19 @@ tags: CMD
 
 setx /？
 
-## 系统用法
+
+### 添加 java 环境变量
 
 ``` bash
 # /M 表示设置到系统变量，取消则默认设置到当前用户的变量中
-setx JAVA_HOME "D:\Program Files\Java\jdk1.8.0_40" /M
+setx JAVA_HOME "C:\Program Files\Java\jdk1.8.0_181" /M
 # 追加到系统Path变量：
-setx Path "%Path%;%JAVA_HOME%/bin" /M
+setx Path "%Path%%%JAVA_HOME%%\bin" /M
 # 设置ClassPath
-setx ClassPath ".;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar" /M
+setx ClassPath ".;%%JAVA_HOME%%\lib\dt.jar;%%JAVA_HOME%%\lib\tools.jar" /M
 ```
+
+### 添加多个环境变量
 
 ``` bat
 @echo on
