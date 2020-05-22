@@ -120,7 +120,11 @@ sudo apt-get update
 sudo apt-get install docker.io docker-compose
 
 - [从 cats 远程服务器迁移数据到新系统](https://www.cnblogs.com/Tang-Yuan/p/11504434.html)  
-sudo rsync -av cats@192.168.0.100:/home/cats/env /home/cats
+
+```sh
+sudo rsync -av cats@192.168.0.100:/home/cats/env /home/cats  
+sudo rsync [OPTION]... [USER@]HOST:SRC DEST
+```
 
 - 磁盘空间大小  
 df -hl
