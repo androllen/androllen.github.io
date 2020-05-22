@@ -1,5 +1,5 @@
 ---
-title: 手动安装 MySQL 服务
+title: 手动安装 MySQL 8.0 服务
 date: 2020-04-12 12:57:49  
 tags: mysql
 author: androllen 
@@ -7,15 +7,27 @@ author: androllen
 
 ### 下载
 
-- [压缩包版本](http://ftp.ntu.edu.tw/MySQL/Downloads/MySQL-8.0/mysql-8.0.19-winx64.zip)
+- [MySQL-8.x.winx64.zip 压缩包版本](http://ftp.ntu.edu.tw/MySQL/Downloads/MySQL-8.0/mysql-8.0.19-winx64.zip)
 
 - [msi版本](http://ftp.ntu.edu.tw/MySQL/Downloads/MySQL-8.0/mysql-8.0.19-winx64.msi)
 
 - [MySQL Connector/J (Archived Versions)](https://downloads.mysql.com/archives/c-j/)
   
-### 解压
+### 准备
 
-  解压到任意文件夹即可
+- 解压到
+  `D:\Program Files\MySQL\MySQL Server 8.0`
+
+  ```sh
+  │─bin
+  ├─docs
+  ├─include
+  ├─lib
+  └─share
+  ```
+
+- 系统环境变量
+  `D:\Program Files\MySQL\MySQL Server 8.0\bin`
 
 ### 新建
 
@@ -199,41 +211,82 @@ author: androllen
 
   ```
 
-### 系统环境变量
-
-  `D:\Program Files\MySQL\MySQL Server 8.0\bin`
-
-### 启动服务
+### 启动 MySQL 服务
 
 - 在 bin 文件夹中打开 `管理员权限` CMD 窗口
-- 依次输入：
+- 手动安装 MySQL 8.0：
 
   ``` bash
-    mysqld --install
-    mysqld --initialize --console
-    # 2020-05-08T06:16:24.807158Z 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: eugpo8khwJ:g
-  ```
-
-- 然后输入：  
- `net start mysql`
-- 首次登录：
- `mysql -u root -p`
-- 输入刚才的默认初始密码  
-- 登录成功后：  
- `mysql> use mysql`
-
-- 重新修改密码
-
- ``` bash
+  mysqld --install
+  mysqld --initialize --console
+  # 2020-05-08T06:16:24.807158Z 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: eugpo8khwJ:g
+  # 然后输入
+  net start mysql
+  # 首次登录
+  mysql -u root -p
+  # 输入刚才的默认初始密码
+  Enter password:**********
+  # 登录成功后
+  mysql> use mysql
+  # 重新修改密码
   # ERROR 1820 (HY000): You must reset your password using ALTER USER statement before executing this statement.
   mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
   mysql> exit
   ```
 
-- 重新登陆
+- 重新登陆 MySQL
 
   ``` bash
   mysql -uroot -p
-  Enter password: **** # 输入密码
+  # 输入重置密码 root
+  Enter password: ****
   mysql> exit
+  ```
+
+### 关闭 MySQL 服务
+
+  ```sh
+  # 停止 MySQL 服务
+  net stop mysql
+  # 删除 MySQL 服务
+  sc delete mysql
+  # 移除 MySQL 注册信息
+  regedit -> 编辑 -> `mysql`
+  ```
+
+### 开启远程服务
+
+  ```sh
+  mysql -uroot -p
+  Enter password: ****
+  mysql> use mysql
+  mysql> select User,Host from user;
+  +------------------+-----------+
+  | User             | Host      |
+  +------------------+-----------+
+  | mysql.infoschema | localhost |
+  | mysql.session    | localhost |
+  | mysql.sys        | localhost |
+  | root             | localhost |
+  +------------------+-----------+
+  4 rows in set (0.00 sec)
+
+  mysql> CREATE USER 'root'@'%' IDENTIFIED BY 'root';
+  mysql> GRANT ALL ON *.* TO 'root'@'%' WITH GRANT OPTION;
+  mysql> flush privileges;
+
+  mysql> select User,Host from user;
+  +------------------+-----------+
+  | User             | Host      |
+  +------------------+-----------+
+  | root             | %         |
+  | mysql.infoschema | localhost |
+  | mysql.session    | localhost |
+  | mysql.sys        | localhost |
+  | root             | localhost |
+  +------------------+-----------+  
+  5 rows in set (0.00 sec)
+
+  mysql> exit
+  Bye  
   ```
