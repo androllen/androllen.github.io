@@ -1,5 +1,5 @@
 ---
-title: 使用hexo托管到github的博客  
+title: 使用 hexo 托管到 Github 的博客  
 date: 2016-11-02 14:45:27  
 tags:  
 categories: Blog  

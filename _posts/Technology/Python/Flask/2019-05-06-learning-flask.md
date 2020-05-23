@@ -26,13 +26,9 @@ tags: Flask Web Service
 - [部署选择中文](http://docs.jinkan.org/docs/flask/deploying/index.html#deployment) 
 - [部署选择英文](http://flask.pocoo.org/docs/1.0/deploying/)
 
-
-
 1. [下载wsl(windows subsystem for linux)](https://sspai.com/post/43813)
 2. Ubuntu 设置和基本命令
 3. 替换Linux软件源并更新软件
 4. 远程启用ssh启动wsl - xshell
 5. 远程启用ssh启动wsl - 通过xftp上传文件
 6. 远程启用ssh启动wsl - 添加python 依赖
-
-
