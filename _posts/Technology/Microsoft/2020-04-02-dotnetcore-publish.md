@@ -48,9 +48,9 @@ categories: DotNetCore
   用于 .NET Core 的 Microsoft (R) 生成引擎版本 16.6.0+5ff7b0c9e
   版权所有(C) Microsoft Corporation。保留所有权利。
 
-    正在确定要还原的项目…
-    已还原 D:\Git Down\AlwaysTop\AlwaysTop\AlwaysTop.csproj (用时 9.36 sec)。
-    AlwaysTop -> D:\Git Down\AlwaysTop\AlwaysTop\bin\Release\netcoreapp3.1\win-x86\AlwaysTop.dll
-    正在优化程序集的大小，这可能更改应用的行为。请务必在发布后进行测试。请参阅: https://aka.ms/dotnet-illink
-    AlwaysTop -> D:\Git Down\AlwaysTop\AlwaysTop\bin\Release\netcoreapp3.1\win-x86\publish\
+  正在确定要还原的项目…
+  已还原 D:\Git Down\AlwaysTop\AlwaysTop\AlwaysTop.csproj (用时 9.36 sec)。
+  AlwaysTop -> D:\Git Down\AlwaysTop\AlwaysTop\bin\Release\netcoreapp3.1\win-x86\AlwaysTop.dll
+  正在优化程序集的大小，这可能更改应用的行为。请务必在发布后进行测试。请参阅: https://aka.ms/dotnet-illink
+  AlwaysTop -> D:\Git Down\AlwaysTop\AlwaysTop\bin\Release\netcoreapp3.1\win-x86\publish\
   ```
