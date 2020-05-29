@@ -69,7 +69,10 @@ tags: frp remote
 
       ```sh
       # 保存为 frpc.bat 文件,双击批处理启动
-      cmd /c " "D:\Program Files\frp\frpc.exe" -c ./frpc.ini "
+      # 如何一直监听？
+      # 先启动远程服务，在启动客户端服务，关闭远程服务后，本地客户端服务就会不停的监听远程服务是否打开
+      # "D:\Program Files\frp\frpc.exe" -c "D:\Program Files\frp\frpc.ini"
+      cmd /c " "D:\Program Files\frp\frpc.exe" -c "D:\Program Files\frp\frpc.ini" "
       ```
 
     - 第二种方式
@@ -124,12 +127,15 @@ tags: frp remote
         ```sh
         # 保存为 frps.service
         [Unit]
-        Description=frpc
+        Description=Frp Server Service
         After=network.target
 
         [Service]
         Type=simple
-        ExecStart= /etc/frp/frp_0.33.0_linux_amd64/frps -c /etc/frp/frp_0.33.0_linux_amd64/frps.ini
+        User=nobody
+        Restart=on-failure
+        RestartSec=5s
+        ExecStart=/usr/bin/frps -c /etc/frp/frps.ini
 
         [Install]
         WantedBy=multi-user.target
@@ -152,10 +158,10 @@ tags: frp remote
   - 点击连接
 
 - 问题
-  1. 连不上的可能是你的防火墙关闭或者7000端口没有开放
+  1. 连不上的可能是你的防火墙关闭或者7000端口没有开放  
      - Windows  
       `netstat -ano|findstr 7000`
      - Linux  
       `netstat -anp|grep 7000`
-  2. 客户端批处理文件
+  1. 客户端批处理文件  
   如果包含路径中包含空格使用以上双引号，如果不包含则不用。
