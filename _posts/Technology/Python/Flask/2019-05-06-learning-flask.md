@@ -22,8 +22,8 @@ tags: Flask Web Service
 - [欢迎进入Flask大型教程项目](http://www.pythondoc.com/flask-mega-tutorial/templates.html)
 - [Flask-RESTPlus系列](https://www.cnblogs.com/leejack/p/9162367.html)
 - [基于flask的轻量级webapi开发入门-从搭建到部署](https://www.cnblogs.com/ihappycat/p/10368386.html)
-- [flask 部署笔记](https://www.jianshu.com/p/80da00b02b7e) 
-- [部署选择中文](http://docs.jinkan.org/docs/flask/deploying/index.html#deployment) 
+- [flask 部署笔记](https://www.jianshu.com/p/80da00b02b7e)
+- [部署选择中文](http://docs.jinkan.org/docs/flask/deploying/index.html#deployment)
 - [部署选择英文](http://flask.pocoo.org/docs/1.0/deploying/)
 
 1. [下载wsl(windows subsystem for linux)](https://sspai.com/post/43813)
@@ -31,4 +31,4 @@ tags: Flask Web Service
 3. 替换Linux软件源并更新软件
 4. 远程启用ssh启动wsl - xshell
 5. 远程启用ssh启动wsl - 通过xftp上传文件
-6. 远程启用ssh启动wsl - 添加python 依赖
+6. 远程启用ssh启动wsl - 添加 python 依赖
