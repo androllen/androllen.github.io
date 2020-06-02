@@ -251,7 +251,7 @@ author: androllen
   # 删除 MySQL 服务
   sc delete mysql
   # 移除 MySQL 注册信息
-  regedit -> 编辑 -> `mysql`
+  regedit -> 编辑 -> 查找 -> mysql
   ```
 
 ### 开启远程服务
