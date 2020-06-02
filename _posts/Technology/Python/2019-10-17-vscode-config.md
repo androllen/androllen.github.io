@@ -34,15 +34,16 @@ author: androllen
 
 ### 解决 PIP 安装虚拟环境后仍然安装到全局python和pip
 
-因为这些 python 都找不到虚拟机环境目录，默认使用本地全局环境
+因为下面 python 都找不到虚拟环境目录，默认会使用本地全局环境
 
-1. 不能使用 中文 路径或者中文文件夹名  
-1. 不能使用 A-B-C 文件夹  
-1. 不能使用 以 点 开头的文件夹
+1. 不能使用 `中文` 路径或者`中文文件夹名`  
+1. 不能使用 `A-B-C` 文件夹  
+1. 不能使用以 `点` 开头的文件夹
 
 ```sh
+# 显示下面的情况 一般是成功的
 where py
-# 显示 C:\Windows\py.exe 一般是成功的
+# C:\Windows\py.exe
 where pip
 # D:\Git Down\django_on_docker\app\env\Scripts\pip.exe
 # D:\Microsoft\Python\Python37\Scripts\pip.exe
