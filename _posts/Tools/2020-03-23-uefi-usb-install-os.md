@@ -91,7 +91,7 @@ author: androllen
   ```
 
 - 安装 openssh  
-sudo apt-get install openssh-server
+  sudo apt install openssh-server
 
 - 安装阿里源  
   如果安装系统的时候，没有设置源请安装下面的步骤操作，已设置请忽略
@@ -99,7 +99,9 @@ sudo apt-get install openssh-server
   ``` bash
   # 使用 putty 远程连接自行 Google
   cd /etc/apt
-  cp /sources.list  sources.list.back
+  # 首次使用会输入密码
+  sudo cp sources.list  sources.list.back
+  sudo vim sources.list
   
   deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse  
   deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
