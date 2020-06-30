@@ -150,14 +150,16 @@ tags: frp remote
     - 查看状态  
     `systemctl status frps.service`
 
-- RDP  
-  - 打开 `RDP` 软件  
-  - 点击右上角 +
-  - ![input ip](../../assets/posts/20200521000231.jpg)  
-  - ![username](../../assets/posts/20200521000331.jpg)  
-  - 点击连接
+### RDP 客户端  
 
-- 问题
+- 打开 `RDP` 软件  
+- 点击右上角 +
+- ![input ip](../../assets/posts/20200521000231.jpg)  
+- ![username](../../assets/posts/20200521000331.jpg)  
+- 点击连接
+
+### 问题
+
   1. 连不上的可能是你的防火墙关闭或者7000端口没有开放  
      - Windows  
       `netstat -ano|findstr 7000`
