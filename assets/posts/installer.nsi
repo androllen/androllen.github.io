@@ -59,7 +59,7 @@ BrandingText "4dogs.cn Installer"
 ShowInstDetails show
 ShowUnInstDetails show
 
-Install exe
+
 Section ""
   CreateDirectory "$INSTDIR\Installer"
   SetOutPath "$INSTDIR\Installer"
@@ -80,7 +80,7 @@ Section "Ö÷³ÌÐò" SEC01
   CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\${CONTROL_PANEL_NAME}.lnk" "$INSTDIR\${PROGRAM_NAME}.exe"
   CreateShortCut "$DESKTOP\${CONTROL_PANEL_NAME}.lnk" "$INSTDIR\${PROGRAM_NAME}.exe"
   Delete "$INSTDIR\Installer\nmap-7.12-setup.exe"
-  Delete "$INSTDIR\Installer\HASPUserSetup.exe"CONTROL_PANEL_NAME
+  Delete "$INSTDIR\Installer\HASPUserSetup.exe"
   RMDir "$INSTDIR\Installer"
 SectionEnd
 
