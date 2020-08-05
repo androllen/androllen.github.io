@@ -23,7 +23,7 @@ categories: 工具
 | 工具名称        | 说明                         | 下载地址                                                                         |
 | --------------- | ---------------------------- | -------------------------------------------------------------------------------- |
 | Xshell and Xftp | SSH 和SFTP/FTP客户端         | [Xshell and Xftp 个人使用版](https://www.netsarang.com/zh/free-for-home-school/) |
-| WinSCP          | SSH 的开源图形化 SFTP 客户端 | [WinSCP Portable](https://winscp.net/eng/download.php)                                    |
+| WinSCP          | SSH 的开源图形化 SFTP 客户端 | [WinSCP Portable](https://winscp.net/eng/download.php)                           |
 
 ### 搜索工具 Search Utility
 
@@ -66,13 +66,13 @@ categories: 工具
 
 ### 下载工具 Download Utility
 
-| 工具名称     | 说明           | 下载地址                                                                                                              |
-| ------------ | -------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Curl官网     | 命令行下载工具 | [https://curl.haxx.se/download.html](https://curl.haxx.se/download.html)                                              |
-| IDM          | 桌面下载工具   | [Internet-Download-Manager](https://www.softpedia.com/get/Internet/Download-Managers/Internet-Download-Manager.shtml) |
-| Homebrew官网 | 命令行下载工具 | [http://brew.sh/index_zh-cn.html](http://brew.sh/index_zh-cn.html)                                                    |
-|Qbittorrent|种子&磁力连接下载工具 |[https://www.qbittorrent.org/download.php](https://www.qbittorrent.org/download.php)
-|None|种子转磁力链接|[还没找到](http://www.torrent.org.cn/)
+| 工具名称     | 说明                  | 下载地址                                                                                                              |
+| ------------ | --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Curl官网     | 命令行下载工具        | [https://curl.haxx.se/download.html](https://curl.haxx.se/download.html)                                              |
+| IDM          | 桌面下载工具          | [Internet-Download-Manager](https://www.softpedia.com/get/Internet/Download-Managers/Internet-Download-Manager.shtml) |
+| Homebrew官网 | 命令行下载工具        | [http://brew.sh/index_zh-cn.html](http://brew.sh/index_zh-cn.html)                                                    |
+| Qbittorrent  | 种子&磁力连接下载工具 | [https://www.qbittorrent.org/download.php](https://www.qbittorrent.org/download.php)                                  |
+| None         | 种子转磁力链接        | [还没找到](http://www.torrent.org.cn/)                                                                                |
 
 ### 镜像 images
 
@@ -96,21 +96,21 @@ categories: 工具
 
 ### 加壳工具 Protect .NET Application Utility
 
-| 工具名称 | 说明                               | 下载地址                                              |
-| -------- | ---------------------------------- | ----------------------------------------------------- |
-| ILProtector    | ILProtector is a protector for .NET applications | <http://www.vgrsoft.net/Download/ILProtector> |
+| 工具名称    | 说明                                             | 下载地址                                      |
+| ----------- | ------------------------------------------------ | --------------------------------------------- |
+| ILProtector | ILProtector is a protector for .NET applications | <http://www.vgrsoft.net/Download/ILProtector> |
 
 ### 官方开发站点 Dev Official
 
-| 工具名称         | 说明                                       | 下载地址                                                                                     |
-| ---------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------- |
-| yasm             |                                            | [http://yasm.tortall.net/](http://yasm.tortall.net/)                                         |
-| msys2            |                                            | [http://msys2.github.io/](http://msys2.github.io/)                                           |
-| MinGW            |                                            | [http://www.mingw.org/](http://www.mingw.org/)                                               |
-| Python           | 网站语言                                   | [https://www.python.org/](https://www.python.org/)                                           |
-| NuGet            | 资源包库                                   | [https://www.nuget.org/](https://www.nuget.org/)                                             |
-| UMLet            | 快速生成UML图表                            | [http://www.umlet.com](http://www.umlet.com)                                                 |
-| Docker           |                                            | [https://docs.docker.com/engine/installation/](https://docs.docker.com/engine/installation/) |
-| 微信公众平台     |                                            | [https://mp.weixin.qq.com/](https://mp.weixin.qq.com/)                                       |
-| LaTeX-推荐MiKTeK | 排版语言，主要用于处理视频中包含的文字信息 | <https://miktex.org/download>                                                                |
-| Manim            | 基于Python的数学动画制作擎                 | <https://github.com/3b1b/manim>                                                              |
+| 工具名称         | 说明                                       | 下载地址                                                                                                                    |
+| ---------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| yasm             |                                            | [http://yasm.tortall.net/](http://yasm.tortall.net/)                                                                        |
+| msys2            |                                            | [http://msys2.github.io/](http://msys2.github.io/)                                                                          |
+| MinGW            |                                            | [http://www.mingw.org/](http://www.mingw.org/)                                                                              |
+| Python           | 网站语言                                   | [https://www.python.org/](https://www.python.org/) [https://www.python.org/ftp/python/](https://www.python.org/ftp/python/) |
+| NuGet            | 资源包库                                   | [https://www.nuget.org/](https://www.nuget.org/)                                                                            |
+| UMLet            | 快速生成UML图表                            | [http://www.umlet.com](http://www.umlet.com)                                                                                |
+| Docker           |                                            | [https://docs.docker.com/engine/installation/](https://docs.docker.com/engine/installation/)                                |
+| 微信公众平台     |                                            | [https://mp.weixin.qq.com/](https://mp.weixin.qq.com/)                                                                      |
+| LaTeX-推荐MiKTeK | 排版语言，主要用于处理视频中包含的文字信息 | <https://miktex.org/download>                                                                                               |
+| Manim            | 基于Python的数学动画制作擎                 | <https://github.com/3b1b/manim>                                                                                             |
