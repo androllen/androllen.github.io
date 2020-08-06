@@ -22,8 +22,8 @@ categories: 工具
 
 | 工具名称        | 说明                         | 下载地址                                                                         |
 | --------------- | ---------------------------- | -------------------------------------------------------------------------------- |
-| Xshell and Xftp | SSH 和SFTP/FTP客户端         | [Xshell and Xftp 个人使用版](https://www.netsarang.com/zh/free-for-home-school/) |
 | WinSCP          | SSH 的开源图形化 SFTP 客户端 | [WinSCP Portable](https://winscp.net/eng/download.php)                           |
+| Xshell and Xftp | SSH 和SFTP/FTP客户端         | [Xshell and Xftp 个人使用版](https://www.netsarang.com/zh/free-for-home-school/) |
 
 ### 搜索工具 Search Utility
 
@@ -51,10 +51,11 @@ categories: 工具
 
 ### 清理垃圾  Clear Utility
 
-| 工具名称     | 说明             | 下载地址                                                        |
-| ------------ | ---------------- | --------------------------------------------------------------- |
-| SpaceSniffer | 直观查看硬盘占用 | [下载地址](https://pc.qq.com/search.html#!keyword=SpaceSniffer) |
-| dism++       | 清理内存垃圾     | [下载地址](http://www.chuyu.me/zh-Hans/)                        |
+| 工具名称                   | 说明                    | 下载地址                                                        |
+| -------------------------- | ----------------------- | --------------------------------------------------------------- |
+| SpaceSniffer               | 直观查看硬盘占用        | [下载地址](https://pc.qq.com/search.html#!keyword=SpaceSniffer) |
+| dism++                     | 清理内存垃圾            | [下载地址](http://www.chuyu.me/zh-Hans/)                        |
+| windows installer clean up | 卸载Microsoft的系列软件 |
 
 ### 抓包工具  Capture data Utility
 
@@ -114,3 +115,18 @@ categories: 工具
 | 微信公众平台     |                                            | [https://mp.weixin.qq.com/](https://mp.weixin.qq.com/)                                                                      |
 | LaTeX-推荐MiKTeK | 排版语言，主要用于处理视频中包含的文字信息 | <https://miktex.org/download>                                                                                               |
 | Manim            | 基于Python的数学动画制作擎                 | <https://github.com/3b1b/manim>                                                                                             |
+
+### 正则工具
+
+| 工具名称      | 说明           | 下载地址                              |
+| ------------- | -------------- | ------------------------------------- |
+| regex buddy 4 | 正则表达式工具 | <http://www.regexbuddy.com>           |
+| Match Tracer  | 正则表达式工具 | <http://www.regexlab.com/zh/mtracer/> |
+
+### Web API 调试工具
+
+| 工具名称  | 说明              | 下载地址                               |
+| --------- | ----------------- | -------------------------------------- |
+| apipost   | API调试、管理工具 | <https://www.apipost.cn/download.html> |
+| postwoman | API调试、管理工具 | <https://postwoman.io/>                |
+| postman   | API调试、管理工具 | <https://www.postman.com/>             |

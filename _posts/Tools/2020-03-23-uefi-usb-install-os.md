@@ -130,3 +130,14 @@ sudo apt-get install docker.io docker-compose
 
 - 磁盘空间大小  
 df -hl
+
+- 准备安装 GNOME 桌面
+
+  1. 安装完Ubuntu server 18.04 之后
+  1. sudo apt update
+  1. sudo apt upgrade -y
+  1. sudo reboot
+  1. sudo apt install tasksel -y
+  1. sudo tasksel
+  1. [*]Ubuntu desktop -> Tab -> OK -> Enter
+  1. reboot
