@@ -103,18 +103,18 @@ categories: 工具
 
 ### 官方开发站点 Dev Official
 
-| 工具名称         | 说明                                       | 下载地址                                                                                                                    |
-| ---------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| yasm             |                                            | [http://yasm.tortall.net/](http://yasm.tortall.net/)                                                                        |
-| msys2            |                                            | [http://msys2.github.io/](http://msys2.github.io/)                                                                          |
-| MinGW            |                                            | [http://www.mingw.org/](http://www.mingw.org/)                                                                              |
-| Python           | 网站语言                                   | [https://www.python.org/](https://www.python.org/) [https://www.python.org/ftp/python/](https://www.python.org/ftp/python/) |
-| NuGet            | 资源包库                                   | [https://www.nuget.org/](https://www.nuget.org/)                                                                            |
-| UMLet            | 快速生成UML图表                            | [http://www.umlet.com](http://www.umlet.com)                                                                                |
-| Docker           |                                            | [https://docs.docker.com/engine/installation/](https://docs.docker.com/engine/installation/)                                |
-| 微信公众平台     |                                            | [https://mp.weixin.qq.com/](https://mp.weixin.qq.com/)                                                                      |
-| LaTeX-推荐MiKTeK | 排版语言，主要用于处理视频中包含的文字信息 | <https://miktex.org/download>                                                                                               |
-| Manim            | 基于Python的数学动画制作擎                 | <https://github.com/3b1b/manim>                                                                                             |
+| 工具名称         | 说明                                       | 下载地址                                                       |
+| ---------------- | ------------------------------------------ | -------------------------------------------------------------- |
+| yasm             |                                            | [http://yasm.tortall.net/](http://yasm.tortall.net/)           |
+| msys2            |                                            | [http://msys2.github.io/](http://msys2.github.io/)             |
+| MinGW            |                                            | [http://www.mingw.org/](http://www.mingw.org/)                 |
+| Python           | 网站语言                                   | <https://www.python.org/> <https://www.python.org/ftp/python/> |
+| NuGet            | 资源包库                                   | [https://www.nuget.org/](https://www.nuget.org/)               |
+| UMLet            | 快速生成UML图表                            | [http://www.umlet.com](http://www.umlet.com)                   |
+| Docker           |                                            | <https://docs.docker.com/engine/installation/>                 |
+| 微信公众平台     |                                            | [https://mp.weixin.qq.com/](https://mp.weixin.qq.com/)         |
+| LaTeX-推荐MiKTeK | 排版语言，主要用于处理视频中包含的文字信息 | <https://miktex.org/download>                                  |
+| Manim            | 基于Python的数学动画制作擎                 | <https://github.com/3b1b/manim>                                |
 
 ### 正则工具
 
@@ -130,3 +130,17 @@ categories: 工具
 | apipost   | API调试、管理工具 | <https://www.apipost.cn/download.html> |
 | postwoman | API调试、管理工具 | <https://postwoman.io/>                |
 | postman   | API调试、管理工具 | <https://www.postman.com/>             |
+
+### 截图工具
+
+| 工具名称          | 说明              | 下载地址                                     |
+| ----------------- | ----------------- | -------------------------------------------- |
+| Snipaste          | 截图              | <https://www.snipaste.com/>                  |
+| FastStone Capture | 截图 录屏工具     | <https://faststone-capture.en.softonic.com/> |
+| ShareX            | 截图 录屏 OCR工具 | <https://sharex.en.softonic.com/>            |
+
+### VSCode 自动补全工具
+
+| 工具名称 | 说明             | 下载地址                                                                                |
+| -------- | ---------------- | --------------------------------------------------------------------------------------- |
+| Kite     | 代码自动补全工具 | <https://www.kite.com/download/> <https://pan.baidu.com/s/1li5rXar6bY_OywTdpI8Jng-ljyy> |
