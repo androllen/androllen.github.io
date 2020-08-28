@@ -137,6 +137,68 @@ HGU(192.168.1.1) -> 路由器WAN口(192.168.1.200) -> 路由器LAN口(192.168.0.
 
     访问Web地址 WAN口IP:5000
 
+### 动态公网IP(家庭)访问公司电脑
+
+直接从家庭分配的动态公网IP来访问公司电脑
+
+- 打开 HGU -> 新建虚拟服务配置 -> 设置端口:7000
+- 打开 HGU -> 新建虚拟服务配置 -> 设置端口:7210
+- 打开 HGU -> 新建虚拟服务配置 -> 设置端口:7211
+- [frp 下载地址](https://github.com/fatedier/frp/releases)
+- 在`内网主机`打开 frps.ini
+
+    ```sh
+    [common]
+    bind_port = 7000
+    vhost_http_port = 7210
+    token = 20200826164426*-/
+    ```
+
+- 在`外网主机`打开 frpc.ini
+
+    ```sh
+    [common]
+    server_addr = WAN口IP
+    server_port = 7000
+    token =  20200826164426*-/
+
+    admin_addr = 127.0.0.1
+    admin_port = 7400
+    admin_user = admin
+    admin_pwd = admin
+
+    [web]
+    type = http
+    local_ip = 127.0.0.1
+    local_port = 7210
+    custom_domains = WAN口IP
+
+    [rdp]
+    type = tcp
+    local_ip = 0.0.0.0
+    local_port = 3389
+    remote_port = 7211
+    ```
+
+- 启动 frps 服务器
+
+    ```sh
+    frps.exe -c frps.ini
+    ```
+
+- 启动 frpc 客户端
+
+    ```sh
+    frpc.exe -c frpc.ini
+    ```
+
+- 公司电脑开启远程设置
+    ![远程设置](https://img2018.cnblogs.com/common/27422/202002/27422-20200204171647015-1481659246.png)
+    添加用户账号
+
+- 家庭开启远程桌面
+    Win+R -> cmd -> mstsc -> WAN口IP:7211 -> 输入用户名和密码
+
 ### 更多
 
 [了解 frp](https://www.jianshu.com/p/f934e6f76673)  
