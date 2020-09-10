@@ -29,14 +29,14 @@
 ; MUI Settings
 
   !define MUI_ABORTWARNING
-  !define MUI_ICON "..\..\4Dogs\V3.0_TX\Installer\App.ico"
-  ;!define MUI_UNICON "..\..\4Dogs\V3.0_TX\Installer\App.ico"
+  !define MUI_ICON "..\..\TopHappy\V3.0_TX\Installer\App.ico"
+  ;!define MUI_UNICON "..\..\TopHappy\V3.0_TX\Installer\App.ico"
 
-  !define PRODUCT_NAME "4Dogs"
+  !define PRODUCT_NAME "TopHappy"
   !define PRODUCT_VERSION "1.0"
-  !define PRODUCT_WEB_SITE "http://www.4dogs.cn/"
-  !define PRODUCT_PUBLISHER "四维创智(北京)科技发展有限公司"
-  !define CONTROL_PANEL_NAME "天象综合渗透测试平台"
+  !define PRODUCT_WEB_SITE "http://www.happytop.cn/"
+  !define PRODUCT_PUBLISHER "快乐至上科技发展有限公司"
+  !define CONTROL_PANEL_NAME "快乐至上平台"
 
   !define PROGRAM_NAME "TxMainApp"
   !define PROGRAM_UNINSTALLER_NAME "Uninstall"
@@ -51,21 +51,21 @@
 
   Name "${CONTROL_PANEL_NAME}"
   ; outfile path
-  OutFile "D:\Desktop\TxInstallerwithkey.exe"
-  ; initialize dir when open 
-  InstallDir "$PROGRAMFILES\4dogs"
+  OutFile "D:\Desktop\TxInstaller.exe"
+  ; initialize dir when open
+  InstallDir "$PROGRAMFILES\TopHappy"
   ; default reg
   InstallDirRegKey HKLM "${PROGRAM_DIR_REGKEY}" ""
   ; left corner display
-  BrandingText "4dogs.cn Installer"
-  ; show installer info 
+  BrandingText "TopHappy.cn Installer"
+  ; show installer info
   ShowInstDetails show
   ShowUnInstDetails show
 
 ;--------------------------------
 ; Pages
 
-  !insertmacro MUI_PAGE_LICENSE "..\..\4Dogs\V3.0_TX\Installer\SoftwareLicence.txt"
+  !insertmacro MUI_PAGE_LICENSE "..\..\TopHappy\V3.0_TX\Installer\SoftwareLicence.txt"
   !insertmacro MUI_PAGE_COMPONENTS
   !insertmacro MUI_PAGE_DIRECTORY
 
