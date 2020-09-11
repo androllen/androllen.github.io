@@ -1,5 +1,5 @@
 ---
-title: Burp Suite Professional 抓取 HTTP/HTTPS 
+title: Burp Suite Professional
 date: 2018-11-10 23:15:39  
 categories: Test Tools  
 ---
