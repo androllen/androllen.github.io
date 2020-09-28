@@ -6,18 +6,13 @@ tags: electron
 
 [接上篇文章](/post/vue.html)
 
-使用`vue-cli`脚手架安装`electron`  
-
-- Installation
-
 ```sh
+# Easily Build Vue.js App For Desktop With Electron
 vue add electron-builder
-```
-
-- To start a Development Server
-
-```sh
+# 运行
 yarn electron:serve
+# 构建
+yarn electron:build
 ```
 
 - Error
@@ -36,3 +31,5 @@ yarn electron:serve
   ```
 
 [使用 vue 安装 electron](https://nklayman.github.io/vue-cli-plugin-electron-builder/guide/#installation)
+[electron-sample](https://github.com/hokein/electron-sample-apps)  
+[electronjs](https://www.electronjs.org/docs/tutorial/first-app)
