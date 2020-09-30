@@ -72,9 +72,9 @@ author: androllen
 - 安装步骤这里略过请自行 Google  
 下面的步骤是安装完后需要设置的。
 
-### Ubuntu
+### Ubuntu 18.04
 
-- 安装网络设置
+- 安装网络设置 
 
   ``` bash
   ifconfig -a
@@ -87,6 +87,22 @@ author: androllen
       enp0s25:
         dhcp4: true
 
+  ```
+  
+  ```sh
+  network:
+    ethernets:
+      eno1:
+        addresses: [192.1.66.11/24]
+        dhcp4: false
+        gateway4: 192.1.66.254
+        nameservers:
+          addresses: [8.8.8.8, 8.8.4.4]
+    renderer: networkd
+    version: 2
+  ```
+
+  ```sh
   sudo netplan apply
   ```
 
@@ -116,39 +132,52 @@ author: androllen
   ```
 
 - 更新  
-sudo apt-get update
-
-- 安装 docker  
-sudo apt-get install docker.io docker-compose
-
-- [从 cats 远程服务器迁移数据到新系统](https://www.cnblogs.com/Tang-Yuan/p/11504434.html)  
 
   ```sh
+  sudo apt-get update
+  ```
+
+- 安装 docker  
+
+  ```sh
+  sudo apt-get install docker.io docker-compose
+  ```
+
+- [同步数据](https://www.cnblogs.com/Tang-Yuan/p/11504434.html)  
+
+  ```sh
+  # sudo rsync [OPTION]... DEST [USER@]HOST:SRC 
+  # 从目标系统迁移数据到源系统
+  sudo rsync -av ./cats root@192.22.44.103:/tmp/cats
+  # sudo rsync [OPTION]... [USER@]HOST:SRC DEST
+  # 从源服务器(cats)迁移数据到目标系统
   sudo rsync -av cats@192.168.0.100:/home/cats/env /home/cats  
-  sudo rsync [OPTION]... [USER@]HOST:SRC DEST
   ```
 
 - 磁盘空间大小  
-df -hl
+
+  ```sh
+  df -hl
+  ```
 
 - 准备安装 GNOME 桌面
 
   1. 安装完Ubuntu server 18.04 之后
-  1. sudo apt update
-  1. sudo apt upgrade -y
-  1. sudo reboot
-  1. sudo apt install tasksel -y
-  1. sudo tasksel
-  1. [*]Ubuntu desktop -> Tab -> OK -> Enter
-  1. reboot
+  2. sudo apt update
+  3. sudo apt upgrade -y
+  4. sudo reboot
+  5. sudo apt install tasksel -y
+  6. sudo tasksel
+  7. [*]Ubuntu desktop -> Tab -> OK -> Enter
+  8. reboot
 
 - 安装浏览器
 
-```sh
-# 对于谷歌Chrome32位版本，使用如下链接：
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
-# 对于64位版本可以使用如下链接下载：
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-# 下载完后，运行如下命令安装。
-sudo dpkg -i google-chrome*; sudo apt-get -f install
-```
+  ```sh
+  # 对于谷歌Chrome32位版本，使用如下链接：
+  wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
+  # 对于64位版本可以使用如下链接下载：
+  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  # 下载完后，运行如下命令安装。
+  sudo dpkg -i google-chrome*; sudo apt-get -f install
+  ```
