@@ -25,31 +25,31 @@ dmg 在MAC系统上的一个镜象文件
 1. 打开磁盘工具，菜单：文件 -> 新建镜像 -> 来自文件夹的镜像...，打开桌面上的 macOS Sierra10.12.1 文件夹，存储为名称macOS.dmg、位置桌面、映像格式读/写，点“存储”按钮。此操作目的是创建一个适合大小的dmg文件  
 1. 双击打开桌面创建的macOS.dmg，出现 macOS Sierra 10.12.1 卷，在终端里输入：  
 
-    ``` bash
-    localhost:~ androllen$ sudo /Users/androllen/Desktop/macOS\ Sierra\ 10.12.1/macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/macOS\ Sierra\ 10.12.1 --applicationpath /Users/androllen/Desktop/macOS\ Sierra\ 10.12.1/macOS\ Sierra.app --nointeraction
+  ``` bash
+  localhost:~ androllen$ sudo /Users/androllen/Desktop/macOS\ Sierra\ 10.12.1/macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/macOS\ Sierra\ 10.12.1 --applicationpath /Users/androllen/Desktop/macOS\ Sierra\ 10.12.1/macOS\ Sierra.app --nointeraction
 
-    WARNING: Improper use of the sudo command could lead to data loss  
-    or the deletion of important system files. Please double-check your  
-    typing when using sudo. Type "man sudo" for more information.  
+  WARNING: Improper use of the sudo command could lead to data loss  
+  or the deletion of important system files. Please double-check your  
+  typing when using sudo. Type "man sudo" for more information.  
 
-    To proceed, enter your password, or type Ctrl-C to abort.  
+  To proceed, enter your password, or type Ctrl-C to abort.  
 
-    Password:  
-    Erasing Disk: 0%... 10%... 20%... 30%...100%...  
-    Copying installer files to disk...  
-    Copy complete.  
-    Making disk bootable...  
-    Copying boot files...  
-    Copy complete.  
-    Done.  
-    ```
+  Password:  
+  Erasing Disk: 0%... 10%... 20%... 30%...100%...  
+  Copying installer files to disk...  
+  Copy complete.  
+  Making disk bootable...  
+  Copying boot files...  
+  Copy complete.  
+  Done.  
+  ```
 
 1. 创建成功，桌面上macOS.dmg的镜像卷标 macOS Sierra 10.12.1 会被改为 Install macOS Sierra。  
 
-    ``` bash
-    注1：其中所有的文件路径都可以通过拖入图标的方式获得，不必手动输入。  
-    注2：终端里，所有文件和目录中空格会被“\空格”代替。
-    ```
+  ``` bash
+  注1：其中所有的文件路径都可以通过拖入图标的方式获得，不必手动输入。  
+  注2：终端里，所有文件和目录中空格会被“\空格”代替。
+  ```
 
 1. 推出刚刚创建的 Install macOS Sierra 卷。删除桌面上的 macOS Sierra 10.12.1 文件夹。  
 1. 打开磁盘工具，菜单：镜像 -> 转换...，在出现的窗口里选择桌面的macOS.dmg，存储为：macOS Sierra 10.12.1.dmg、位置桌面、映像格式压缩，点“存储”按钮。转换成功后删除桌面上的macOS.dmg。  
