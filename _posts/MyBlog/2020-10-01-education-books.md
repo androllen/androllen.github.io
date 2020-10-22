@@ -1,5 +1,5 @@
 ---
-title: Education Book
+title: Education Books
 date: 2020-10-01 23:10:49  
 tags: book edu
 ---
