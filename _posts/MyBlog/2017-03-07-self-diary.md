@@ -335,3 +335,7 @@ The only thing necessary for the triumph of evil is for good people to do nothin
 ### 20201011
 
 茴香馅包子和饺子 山楂卷 咸鸭蛋 五仁月饼 石榴
+
+### 20201024
+
+八小时之内求生存 八小时之外求发展
