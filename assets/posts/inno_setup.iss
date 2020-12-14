@@ -31,24 +31,32 @@ Compression=lzma
 SolidCompression=yes
 UninstallDisplayIcon={app}\{#MyAppExeName}
 
+
 [Languages]
 Name: "chinesesimplified"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
-Name: "install_other"; Description: "安装 Nmanp Setup"; GroupDescription: "{cm:Other}"; Flags: unchecked
+Name: "install_nmap"; Description: "安装 Nmanp Setup"; GroupDescription: "{cm:Other}";  Flags: checkablealone 
+Name: "install_hasp"; Description: "安装 HASPUserSetup"; GroupDescription: "{cm:Other}"; Flags: checkablealone 
+
 
 [Files]
 Source: "D:\MyShare\20190829\Debug\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\4Dogs\Installer\HASPUserSetup.exe"; DestDir: "{app}"; Flags: ignoreversion deleteafterinstall; Tasks :install_hasp
+Source: "D:\4Dogs\Installer\nmap-7.12-setup.exe"; DestDir: "{app}"; Flags: ignoreversion deleteafterinstall ;Tasks :install_nmap
+Source: "D:\4Dogs\Installer\dotNet4.5-x86-x64.3505182529.exe"; DestDir: "{app}"; Flags: ignoreversion deleteafterinstall ;
 
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\{#MyAppExeName}"; Description: "aaa"; Flags: nowait postinstall skipifsilent
-Filename: "{app}\assets\nmap-7.12-setup.exe"; StatusMsg: "安装 Nmanp Setup"; Check: IsWin64(); Tasks: install_other;
-Filename: "{app}\assets\7z1900-x64.exe"; StatusMsg: "安装 Nmanp Setup"; Check: Not IsWin64(); Tasks: install_other;
+Filename: "{app}\{#MyAppExeName}"; Description: "启动 {#MyAppName}"; Flags: postinstall skipifsilent
+Filename: "{app}\nmap-7.12-setup.exe"; StatusMsg: "安装 Nmanp Setup"; Check: IsWin64(); Tasks: install_nmap;
+Filename: "{app}\HASPUserSetup.exe"; StatusMsg: "安装 HASPUserSetup"; Check: IsWin64(); Tasks: install_hasp;
+Filename: "{app}\dotNet4.5-x86-x64.3505182529.exe"; StatusMsg: "安装 dotNet4.5-x86-x64.3505182529.exe"; Check: IsWin64();
+
 
 [Code]
 function InitializeSetup(): boolean;
