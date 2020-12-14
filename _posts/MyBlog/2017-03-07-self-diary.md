@@ -339,3 +339,7 @@ The only thing necessary for the triumph of evil is for good people to do nothin
 ### 20201024
 
 八小时之内求生存 八小时之外求发展
+
+### 20201122
+
+茴香包子 南瓜馅饺子 花生粘 炖肉 牛肉 石榴
