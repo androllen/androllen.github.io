@@ -6,6 +6,7 @@
 #define MyAppPublisher "TopHappy.cn"
 #define MyAppURL "http://www.happytop.cn/"
 #define MyAppExeName "TxMainApp.exe"
+#define MyVersionInfoVersion "3.0.0.0"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -30,7 +31,7 @@ SetupIconFile=D:\4Dogs\V3.0_TX\App.ico
 Compression=lzma
 SolidCompression=yes
 UninstallDisplayIcon={app}\{#MyAppExeName}
-
+VersionInfoVersion={#MyVersionInfoVersion}
 
 [Languages]
 Name: "chinesesimplified"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
