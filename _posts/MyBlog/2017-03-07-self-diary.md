@@ -343,3 +343,6 @@ The only thing necessary for the triumph of evil is for good people to do nothin
 ### 20201122
 
 茴香包子 南瓜馅饺子 花生粘 炖肉 牛肉 石榴
+
+### 20210118
+不管走多远，去到任何地方，都不会忘记回家的路
