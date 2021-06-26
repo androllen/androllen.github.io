@@ -5,7 +5,12 @@ tags: oracle
 author: androllen 
 ---
 
-## Navicat连接Oracle数据库
+### 准备
+
+- instantclient-basic-windows.x64-11.2.0.4.0.zip 
+- Navicat 12.0.18_premium_cs_x64.exe
+
+### 连接
 
 ```sh
 连接名    : test
@@ -21,7 +26,7 @@ author: androllen
 
 ## Oracle library is not loaded
 
-- [下载 Oracle](https://www.oracle.com/database/technologies/instant-client/downloads.html) 
+- [下载 Oracle](https://www.oracle.com/database/technologies/instant-client/downloads.html)
 - Oracle 放到任意的位置
 - 打开 Navicat -> 工具 -> 选项 -> 环境 -> OCI 环境 -> 打开 Oracle 指定的位置 -> 选择 oci.dll
 - 配置完后一定要重新启动Navicat Premium程序，否则配置无法生效！
