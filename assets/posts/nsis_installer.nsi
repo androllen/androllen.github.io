@@ -100,8 +100,8 @@
   ;   CreateDirectory "$INSTDIR\Installer"
   ;   SetOutPath "$INSTDIR\Installer"
   ;   SetOverwrite ifnewer
-  ;   File /r "D:\4Dogs\V3.0_TX\Installer\nmap-7.12-setup.exe"
-  ;   File /r "D:\4Dogs\V3.0_TX\Installer\HASPUserSetup.exe"
+  ;   File /r "D:\Happy\V3.0_TX\Installer\nmap-7.12-setup.exe"
+  ;   File /r "D:\Happy\V3.0_TX\Installer\HASPUserSetup.exe"
   ;   ExecWait "$INSTDIR\Installer\nmap-7.12-setup.exe"
   ;   ExecWait "$INSTDIR\Installer\HASPUserSetup.exe"
   ; SectionEnd
