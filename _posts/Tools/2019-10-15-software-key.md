@@ -48,3 +48,18 @@ fbf29edbc4b34ef85ee53fbfca71814a82afadf073876b4b033451
 b6292a7cc7975b3ff3cc73404abbf7c126787344169eeae4609f62
 c9ffbc159bf2640ad5d9b88f8fa9d9cbf2b7e5b022a21938465244
 ```
+
+```sh
+Beyond Compare 3
+Licensed to:     All User
+Quantity:       1 user
+Serial number:  3281-0350
+License type:   Pro Edition for Windows
+
+--- BEGIN LICENSE KEY ---
+mv1nPlXAywBDCdhxFc9QOVv6TBcQHLAXBQUAKTh3ie4fqSEOnWrPsnVkF
+yt0wAkJHweoExRJWWVwwCniKNROSdJzJXE6YVapYW7f+tRRXRFI4yn4Nj
+jZ0RiiqGRCTVzwComUcXB-eiFWRBY6JpSsCNkmIxL5KsRCo442djHhTZE
+--- END LICENSE KEY -----
+
+```
