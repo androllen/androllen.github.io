@@ -16,3 +16,6 @@ tags: wifi
   ```
  
 
+### 参考
+
+[楼下邻居总偷网，改密码也没用，禁止他们联网，可过一会他们又能连上，该怎么办？](https://mp.weixin.qq.com/s/aHMXrZg9kV8KvkxeTjOq1w)
