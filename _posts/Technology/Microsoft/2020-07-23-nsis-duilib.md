@@ -4,6 +4,13 @@ date: 2020-07-23 20:20:32
 tags: NSIS HM NIS Edit Duilib
 ---
 
+- 说明文档
+  - https://nsis.sourceforge.io/Main_Page
+  - https://nsis.sourceforge.io/Docs/
+  - https://nsis.sourceforge.io/Simple_tutorials
+  - https://github.com/jeppeter/nsduilib
+  - https://github.com/gaodeng/BiuSetup
+
 - 之前我们通过 `NSIS` 来包装成普通界面安装包，那我们在软件市场上看到那些靓丽的界面安装界面是怎么来的，基于`Duilib`的软件不完全列表
 
     |公司|产品|
@@ -36,9 +43,11 @@ tags: NSIS HM NIS Edit Duilib
 
     NSIS Dialog Designer is an IDE that provides a graphical tool to easily design your custom setup pages for the great NSIS installer system.  
 
-以上未经测试也没有制作自己的`UI`皮肤
+以上未经测试
 
-- [普通自定义页面](https://gist.github.com/johncf/e8f2fc74bec337ddaba30399907d9d9a)
+- [自定义页面](https://github.com/hilanmiao/NSIS-UI)
+
+- [普通页面](https://gist.github.com/johncf/e8f2fc74bec337ddaba30399907d9d9a)
 
   ```sh
   !include nsDialogs.nsh
@@ -128,3 +137,7 @@ tags: NSIS HM NIS Edit Duilib
   ```
 
   ![自定义界面](https://s1.ax1x.com/2020/09/04/wFGDwd.png)
+
+- Net framework is installed on the computer and download/install one if it is not found
+https://github.com/alex-sitnikov/NsisDotNetChecker/blob/master/nsis/DotNetChecker.nsh
+
