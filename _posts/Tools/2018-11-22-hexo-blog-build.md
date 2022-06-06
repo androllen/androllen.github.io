@@ -8,8 +8,8 @@ categories: Blog
 ### 基本流程  
 
 1. 使用在github 建立一个版本库 yourname.github.io  
-1. 安装hexo 需要node.js[使用nvm 安装node.js](http://achinesepainter.com/2016/11/18/nvm-install-node-js-for-Mac-and-Windows/)  
-1. 配置环境变量  
+2. 安装`hexo`需要node.js[使用nvm 安装node.js](./2016-11-18-nvm-install-node-js-for-mac-and-windows.md)  
+3. 配置环境变量  
 <!-- more -->
 1. 安装完成后使用命令行  
    > 测试 nvm v 输出版本号1.1.1  
