@@ -25,14 +25,21 @@ categories: Blog
 2. [推荐-安装版本nvm-setup.zip](https://github.com/coreybutler/nvm-windows/releases)  
 
 ### 安装  
-- 安装`Nvm`目录 设置为 D:\Google\Nvm 和 D:\Google\Nodejs
+- 打开`Nvm-setup.exe`
+- 安装`Nvm` 
+- 设置`Nvm`目录为 D:\Google\Nvm 
+- 设置`Nodejs`目录为 D:\Google\Nodejs
+- 完成
 
 ### 环境变量    
-1. 新增 NVM_HOME D:\Google\Nvm  
-1. 新增 NVM_SYMLINK D:\Google\Nodejs  
-1. 在用户和系统变量顺序为 %NVM_HOME% %NVM_SYMLINK% 
-1. 确定
-2. 不用设置`NPM`环境变量因为可以通过软链接定位到  
+1. 新增用户变量 NVM_HOME D:\Google\Nvm  
+1. 新增用户变量 NVM_SYMLINK D:\Google\Nodejs  
+1. 用户变量`Path`下新建 %NVM_HOME% 和 %NVM_SYMLINK% 
+2. 新增系统变量 NVM_HOME D:\Google\Nvm  
+2. 新增系统变量 NVM_SYMLINK D:\Google\Nodejs  
+2. 新增`Path`下新建 %NVM_HOME% 和 %NVM_SYMLINK%  
+3. 确定
+4. PS:不用设置`NPM`环境变量因为可以通过软链接定位到  
 
 ### 安装Node   
 1. nvm version  

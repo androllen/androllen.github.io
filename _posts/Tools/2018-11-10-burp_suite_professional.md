@@ -47,6 +47,16 @@ categories: Test Tools
 
 ### 双向验证
 
+
+### 问题
+
+  如果不能点击Running 可能端口被占用
+  ```sh
+  netstat -ano | findstr 8080
+  tasklist | findstr 12524
+  ```
+  ![1](/assets/posts/20220610220242.png)
+
 ### 相关链接
 
 1. [抓取手机HTTPS](https://blog.csdn.net/qq_29277155/article/details/52548630)  
