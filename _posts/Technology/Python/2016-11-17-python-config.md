@@ -54,3 +54,17 @@ permalink: post/update-pip-source.html
    重新执行方法一
 
 [资料下载](https://files.cnblogs.com/files/luquanmingren/setup-pip.zip)
+
+### pip3 安装 pycrypto 时报错
+
+[Crypto](https://github.com/pycrypto/pycrypto)
+
+[Pycrytodome](https://github.com/sfbahr/PyCrypto-Wheels)
+
+`pycrypto` 已经停止更新  
+
+`pycryptodome`是`pycrypto`的延伸版本,用法是一样的。
+
+``` sh
+pip3 install pycryptodome
+```
