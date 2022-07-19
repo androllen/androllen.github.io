@@ -30,7 +30,7 @@ npm run dev
 npm run deploy:build
 ```
 
-### 部署
+### 离线部署
 
 ```sh
 # cd 到 examples\element-ui 目录下
@@ -38,3 +38,33 @@ http-server -p 8080
 http://127.0.0.1:8080
 ```
 
+```sh
+install-vuejs-doc.sh
+Download and build the Vue.JS documentation for offline access
+# Clone the repository
+git clone https://github.com/vuejs/vuejs.org.git
+cd vuejs.org
+# Install the JS dependencies
+yarn
+# Start the server
+yarn start
+# The server should now be running on http://localhost:4000/
+```
+
+```sh
+git clone https://github.com/vuejs/vue-cli.git
+cd vue-cli-5.0.8
+yarn
+npm run docs
+# http://localhost:3000/
+
+```
+
+```sh
+git clone https://github.com/vuejs/router.git
+cd router
+yarn
+npm run docs:build
+# VuePress dev server listening at http://localhost:8080/
+
+```
