@@ -68,3 +68,7 @@ permalink: post/update-pip-source.html
 ``` sh
 pip3 install pycryptodome
 ```
+
+The installer has encountered an unexpected error installing this package. Thismay indicate a problem with this package.The error code is 2503.
+
+使用管理员权限安装

@@ -40,3 +40,15 @@ author: androllen
 - Oracle 放到任意的位置
 - 打开 Navicat -> 工具 -> 选项 -> 环境 -> OCI 环境 -> 打开 Oracle 指定的位置 -> 选择 oci.dll
 - 配置完后一定要重新启动Navicat Premium程序，否则配置无法生效！
+
+
+### 导出整个库 
+
+```
+#  exp 用户名/口令@数据库名   file=导出的文件存储路径
+exp username/password@SID file=D:\test.dmp
+```
+
+### 导入整个库
+imp 用户名/密码@数据库名 full=y file= 文件路径  ignore=y  
+imp usename/password@SID full=y  file= D:\test.dmp   ignore=y

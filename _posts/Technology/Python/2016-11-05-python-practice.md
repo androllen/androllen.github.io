@@ -5,6 +5,10 @@ tags: overview
 categories: Python  
 ---
 
+!/usr/bin/python 与 #!/usr/bin/env 区别
+env命令列出的环境变量 查找名为python的可执行文件，找到一个就直接执行
+
+
 ![list](../../../assets/posts/20191120180921.png)
 
 ### string
