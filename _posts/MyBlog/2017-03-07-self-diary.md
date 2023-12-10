@@ -405,3 +405,11 @@ The only thing necessary for the triumph of evil is for good people to do nothin
 ### 20230723 晴天
 
 饺子 粽子
+
+### 20231007
+
+茴香馅包子 饺子 石榴 丝瓜 烙饼 月饼 炒熟的核桃仁
+
+### 20231119
+
+茴香馅包子 南瓜馅包子 辣椒酱 两个南瓜 2个麻鸭双黄蛋咸鸭蛋 2个神丹咸鸭蛋 12个石榴
