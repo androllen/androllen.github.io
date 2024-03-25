@@ -20,7 +20,6 @@ permalink: post/update-pip-source.html
   ```
 
 ### Python2.7 install pip
-
 - 资料包含：  
 
   ```sh
@@ -38,11 +37,13 @@ permalink: post/update-pip-source.html
 
   再安装 pip：
   进入 pip 文件夹，运行：python setup.py install
+  
+  # 使用 `pip` 命令的时候报 `failed to create process` 重新执行方法一
   ```
 
 - 方法二
   
-  ``` sh
+  ```sh
   # ez_setup.py是python官方给出的一个安装setuptools的工具
   进入ez_setup.py文件夹 python ez_setup.py
 
@@ -50,8 +51,18 @@ permalink: post/update-pip-source.html
   进入get-pip.py 文件夹 python get-pip.py
   ```
 
-- 使用 `pip` 命令的时候报 `failed to create process`
-   重新执行方法一
+- 方法三
+
+  ```sh
+  # 调用会在当前未安装 pip 的情况下安装 pip
+  # env\Lib\site-packages 路径下 删掉pip
+  python -m ensurepip
+  ```
+
+
+### 更新 pip
+python -m pip install --upgrade pip
+
 
 [资料下载](https://files.cnblogs.com/files/luquanmingren/setup-pip.zip)
 

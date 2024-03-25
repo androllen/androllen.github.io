@@ -356,7 +356,7 @@ The only thing necessary for the triumph of evil is for good people to do nothin
 
 ### 20210204
 
-今年是小年 离开了三年的地方
+今天是小年 离开了三年的地方
 
 ### 20210206 阴
 
@@ -413,3 +413,10 @@ The only thing necessary for the triumph of evil is for good people to do nothin
 ### 20231119
 
 茴香馅包子 南瓜馅包子 辣椒酱 两个南瓜 2个麻鸭双黄蛋咸鸭蛋 2个神丹咸鸭蛋 12个石榴
+
+### 20240101
+韭菜肉饺子 蒙山红香菇酱 炸酱 2个麻鸭双黄蛋咸鸭蛋 1个神丹咸鸭蛋 若干发面烙饼 石榴 月饼
+
+### 20240217
+
+韭菜肉饺子 豆包 年糕（糯米和黄米） 糖果 粑粑柑 花生瓜子葡萄干 煮肉 肝 石榴2个 一瓶炸酱卤
