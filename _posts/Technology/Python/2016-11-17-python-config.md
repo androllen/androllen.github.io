@@ -83,3 +83,9 @@ pip3 install pycryptodome
 The installer has encountered an unexpected error installing this package. Thismay indicate a problem with this package.The error code is 2503.
 
 使用管理员权限安装
+
+```sh
+# 依赖包无法安装到虚拟环境
+# pip --version：Fatal error in launcher: Unable to create process using...
+python -m pip install --upgrade --force-reinstall pip
+```
