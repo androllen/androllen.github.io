@@ -17,3 +17,18 @@ vs_professional.exe –-layout D:\localVScache –-add Microsoft.VisualStudio.Wo
 --add Microsoft.Net.Component.4.7.SDK 
 --add Microsoft.Net.Component.4.7.SDK 
 
+
+
+Visual Studio 2022(VS2022) 激活码：
+
+Pro:
+
+　　TD244-P4NB7-YQ6XK-Y8MMM-YWV2J
+
+Enterprise:
+
+　　VHF9H-NXBBB-638P6-6JHCY-88JWH
+
+Pro offline download:
+
+vs_Professional.exe --layout D:\localVScache --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --lang en-US
