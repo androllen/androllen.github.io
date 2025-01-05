@@ -9,16 +9,6 @@ tags: Key
 VK7JG-NPHTM-C97JM-9MPGT-3V66T
 ```
 
-``` sh
-# Visual Studio 2019 Enterprise Key
-BF8Y8-GN2QH-T84XB-QVY3B-RC4DF
-```
-
-```sh
-# Visual Studio 2019 Professional key
-NYWVH-HT4XC-R2WYW-9Y3CM-X4V3Y
-```
-
 ```sh
 # VMware Workstation Pro 15 key
 VV502-47Z16-M85AQ-Q7PX9-QLA8D
@@ -30,9 +20,7 @@ License：zd423
 Key：LrZoHQetrL7OK8XOVWgvTFn+XOR32hQkrxkYj0CkbDUsvvENp6GCS38B8GiOS1ec
 ```
 
-C4D key
-
-
+## RAR key
 
 ```sh
 # rarreg.key
@@ -48,6 +36,8 @@ fbf29edbc4b34ef85ee53fbfca71814a82afadf073876b4b033451
 b6292a7cc7975b3ff3cc73404abbf7c126787344169eeae4609f62
 c9ffbc159bf2640ad5d9b88f8fa9d9cbf2b7e5b022a21938465244
 ```
+
+## Beyond Compare 3
 
 ```sh
 Beyond Compare 3
