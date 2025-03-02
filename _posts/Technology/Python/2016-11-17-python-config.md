@@ -53,14 +53,14 @@ permalink: post/update-pip-source.html
 
 - 方法三
 
-  ```sh
-  # 调用会在当前未安装 pip 的情况下安装 pip
-  # env\Lib\site-packages 路径下 删掉pip
-  python -m ensurepip
-  ```
+```sh
+# 调用会在当前未安装 pip 的情况下安装 pip
+# 如果有旧版的 pip 文件夹先删除，目录在 Lib\site-packages 路径下删掉 pip和pip-23.2.1.dist-info
+python -m ensurepip
+```
 
 
-### 更新 pip
+### 最后更新 pip
 python -m pip install --upgrade pip
 
 
@@ -89,3 +89,6 @@ The installer has encountered an unexpected error installing this package. Thism
 # pip --version：Fatal error in launcher: Unable to create process using...
 python -m pip install --upgrade --force-reinstall pip
 ```
+
+reference:  
+https://blog.csdn.net/qq_34663531/article/details/116981552
