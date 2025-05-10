@@ -55,10 +55,11 @@ TD244-P4NB7-YQ6XK-Y8MMM-YWV2J
 vs_Professional.exe --layout D:\localVScache --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.VisualStudioExtension;includeRecommended --lang en-US
 
 # Visual Studio 2022 Professional offline download for NetWeb
-vs_Professional.exe -–layout D:\localVScache --add Microsoft.VisualStudio.Workload.NetWeb;includeRecommended --add Microsoft.VisualStudio.Workload.VisualStudioExtension;includeRecommended --add Microsoft.NetCore.Component.Runtime.6.0 -–lang en-US -–productKey TD244-P4NB7-YQ6XK-Y8MMM-YWV2J
+vs_Professional.exe -–layout D:\localVScache --add Microsoft.VisualStudio.Workload.NetWeb;includeRecommended --add Microsoft.VisualStudio.Workload.VisualStudioExtension;includeRecommended --add Microsoft.NetCore.Component.Runtime.6.0 -–lang en-US -–productKey TD244P4NB7YQ6XKY8MMMYWV2J
 
 # https://learn.microsoft.com/zh-cn/visualstudio/install/create-an-offline-installation-of-visual-studio?view=vs-2022
 # https://learn.microsoft.com/zh-cn/visualstudio/install/workload-component-id-vs-professional?view=vs-2022
 # https://learn.microsoft.com/zh-cn/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022
+# https://learn.microsoft.com/zh-cn/troubleshoot/developer/visualstudio/installation/installation-vs-2022-license-key-shows-invalid
 ```
 
