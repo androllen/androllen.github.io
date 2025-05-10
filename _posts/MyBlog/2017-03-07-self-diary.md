@@ -454,3 +454,6 @@ The only thing necessary for the triumph of evil is for good people to do nothin
 
 ### 20250404-0406
 红枣一袋 一带核桃仁 6个包子 6个绿豆包 一袋饺子
+
+### 20250501-0506
+20块大饼 一袋饺子 一包瓜子 三根腊肠 四根火腿肠
