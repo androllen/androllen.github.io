@@ -4,7 +4,7 @@ date: 2020-09-09 20:16:32
 tags: electron
 --- 
 
-[接上篇文章](/web/vue.html)
+[接上篇文章](../../docs/web/2020-09-08-vue.html)
 
 ```sh
 # Easily Build Vue.js App For Desktop With Electron

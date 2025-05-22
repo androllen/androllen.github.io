@@ -8,12 +8,6 @@ outline: deep
 
 [下载 V1.44.1 VSCode](https://code.visualstudio.com/?wt.mc_id=vscom_downloads)  
 [下载 V3.7.x  Python](https://www.python.org/)  
-[下载慢请更新淘宝或者清华源](update-pip-source.html)
-
-
-
-
-
 
 ### 创建 Django
 
