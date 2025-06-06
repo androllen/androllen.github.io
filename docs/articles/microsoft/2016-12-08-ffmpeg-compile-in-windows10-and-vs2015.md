@@ -119,8 +119,8 @@ BuildFFmpeg.bat win8.1 phone8.1 win10     - Build all architecture for all targe
 
 打开 Win 8.1 或 Win 10 对应的项目解决方案 FFmpegInterop
 打开 FFmpegInterop 属性页面  
-![ffmpeg_build_bin](../assets/20250516792176.png)  
-![ffmpeg_build_include](../assets/20250516792178.png)  
+![ffmpeg_build_bin](../../public/assets/20250516792176.png)  
+![ffmpeg_build_include](../../public/assets/20250516792178.png)  
 这个时候 FFmpegInterop 提供的 MediaPlayerCS 项目已经做好了相关配置，开始编译,编译成功。
 
 ## 引入 FFmpegInterop库

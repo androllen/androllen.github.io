@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 
+process.env.VITE_EXTRA_EXTENSIONS = 'iss,nsi,vbs' // additional values should be comma separated without any spaces - `ini,foo,bar`
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "androllen'blogs",

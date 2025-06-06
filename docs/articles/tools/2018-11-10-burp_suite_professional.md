@@ -10,20 +10,20 @@ outline: deep
 [Configuring Chrome to work with Burp](https://portswigger.net/support/configuring-chrome-to-work-with-burp)
 
 - 设置代理
-  ![1](../assets/20200328214331.png)
-  ![1](../assets/20200328214450.png)
+  ![1](../../public/assets/20200328214331.png)
+  ![1](../../public/assets/20200328214450.png)
 - 下载证书  
   <http://burp/>  
-  ![1](../assets/20200328214480.png)
+  ![1](../../public/assets/20200328214480.png)
 
 - 安装证书
-  ![1](../assets/20200328214554.png)
-  ![1](../assets/20200328214627.png)
-  ![1](../assets/20200328214724.png)
-  ![1](../assets/20200328214809.png)
+  ![1](../../public/assets/20200328214554.png)
+  ![1](../../public/assets/20200328214627.png)
+  ![1](../../public/assets/20200328214724.png)
+  ![1](../../public/assets/20200328214809.png)
 
 - 设置开关
-![1](../assets/20200328220216.png)
+![1](../../public/assets/20200328220216.png)
   > Proxy中Intercept选项卡，关闭拦截功能“Interception is off”  
 
 ### Firefox 版本  
@@ -35,7 +35,7 @@ outline: deep
 - 记录电脑端连接 IP 地址
   > 如果没有 WiFi 路由器，电脑自带无线网卡的情况下下载360免费WiFi客户端
 - 设置 Burp 新增本地 WiFi 网卡IP地址
-  ![ip](../assets/20200328225511.png)
+  ![ip](../../public/assets/20200328225511.png)
 - 导出当前IP段证书
   > burp.crt
 - 手机端设置代理  
@@ -56,7 +56,7 @@ outline: deep
   netstat -ano | findstr 8080
   tasklist | findstr 12524
   ```
-  ![1](../assets/20220610220242.png)
+  ![1](../../public/assets/20220610220242.png)
 
 ### 相关链接
 

@@ -17,20 +17,20 @@ outline: deep
 2. 写镜像文件到USB启动盘
    - 下载 Rufus [下载地址](https://rufus.ie/)
    - 加载镜像文件  
-      ![加载镜像文件](../assets/20200323132047.png)  
+      ![加载镜像文件](../../public/assets/20200323132047.png)  
 
     分区类型GPT：支持UEFI快速启动安装  
     文件系统NTFS：支持大于4GB大文件，写入U盘的文件格式  
    - 写入镜像文件  
-      ![写入镜像文件](../assets/20200323135331.png)
+      ![写入镜像文件](../../public/assets/20200323135331.png)
 
 3. 两种启动方法  
    - 正常启动的Windows系统下按住 Shift 点击重启键  
-      ![Shift](../assets/20200323140635.png)  
+      ![Shift](../../public/assets/20200323140635.png)  
 
      > Windows 10 将会在重启后进入 NRE 环境，在 RE 环境中选择使用可移动存储设备启动即可使用 U 盘启动
    - 传统启动下按 F12 进入BIOS  
-      ![RE](../assets/20200323140409.png)  
+      ![RE](../../public/assets/20200323140409.png)  
      > 在使用UEFI启动前，我们的硬盘分区表必须是GPT格式。
 
 4. 安装系统

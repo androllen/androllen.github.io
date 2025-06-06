@@ -10,7 +10,7 @@ outline: deep
 env命令列出的环境变量 查找名为python的可执行文件，找到一个就直接执行
 
 
-![list](../assets/20191120180921.png)
+![list](../../public/assets/20191120180921.png)
 
 ### string
 
