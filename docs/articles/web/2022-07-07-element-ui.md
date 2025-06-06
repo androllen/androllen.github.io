@@ -15,11 +15,11 @@ npm install http-server -g
 
 需要提前下载下面五个文件  
 
-![五个文件](../../public/assets/web/20220701003057.png)  
+![五个文件](../../public/web/20220701003057.png)  
 
 更改npm文件夹路径下的文件  
 
-![替换字符串](../../public/assets/web/20220701003202.png)  
+![替换字符串](../../public/web/20220701003202.png)  
 
 ### 生成
 
