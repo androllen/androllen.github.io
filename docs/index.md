@@ -16,7 +16,7 @@ hero:
       text: GitHub
       link: https://github.com/androllen
   image:
-      src: https://vitepress.dev/vitepress-logo-large.webp
+      src: /vitepress-logo-large.webp
       alt: VitePress
 
 features:
