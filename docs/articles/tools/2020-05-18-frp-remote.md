@@ -154,8 +154,8 @@ outline: deep
 
 - 打开 `RDP` 软件  
 - 点击右上角 +
-- ![input ip](../assets/20200521000231.jpg)  
-- ![username](../assets/20200521000331.jpg)  
+- ![input ip](../../public/assets/20200521000231.jpg)  
+- ![username](../../public/assets/20200521000331.jpg)  
 - 点击连接
 
 ### 问题
