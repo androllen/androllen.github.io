@@ -7,7 +7,7 @@ outline: deep
 ### Visual Studio GUI发布  
   
   ![view](../../public/assets/20200402180757.png)  
-  ![view](../assets/20200402180758.png)
+  ![view](../../public/assets/20200402180758.png)
 
 ### Visual Studio 命令行发布  
   
