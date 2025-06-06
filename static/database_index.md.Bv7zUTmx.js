@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t}from"./chunks/framework.BeMlo_ux.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"database/index.md","filePath":"database/index.md","lastUpdated":1747924457000}'),s={name:"database/index.md"};function d(n,r,o,c,i,p){return t(),a("div")}const f=e(s,[["render",d]]);export{m as __pageData,f as default};
