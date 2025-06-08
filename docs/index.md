@@ -6,15 +6,15 @@ hero:
   text: awesome-front-end-world
   tagline: 一个独有的小站
   actions:
-    # - theme: brand
-    #   text: 什么是 VitePress?
-    #   link: https://github.com/vuejs/vitepress
+    - theme: brand
+      text: 搭建 VitePress
+      link: /articles/tools/2025-06-07-vitepress-build
     - theme: alt
       text: 快速开始
-      link: /web/2017-03-07-npm
+      link: /articles/web/2017-03-07-npm
     - theme: alt
-      text: GitHub
-      link: https://github.com/androllen
+      text: 博客园
+      link: https://www.cnblogs.com/androllen
   image:
       src: /vitepress-logo-large.webp
       alt: VitePress
