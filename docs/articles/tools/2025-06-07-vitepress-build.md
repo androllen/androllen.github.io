@@ -437,7 +437,7 @@ export default defineConfig({
 ### 部署配置文件
 
 ::: tip 注意
-你的默认分支如果是 `master` 那就要和 `第9行` 这里保持一致
+你的默认分支如果是 `main` 那就要和 `第9行` 这里保持一致
 :::
 
 ::: details deploy.yml
@@ -451,7 +451,7 @@ on:
   # 在针对 `main` 分支的推送上运行。如果你
   # 使用 `master` 分支作为默认分支，请将其更改为 `master`
   push:
-    branches: [master]
+    branches: [main]
 
   # 允许你从 Actions 选项卡手动运行此工作流程
   workflow_dispatch:
@@ -521,9 +521,10 @@ jobs:
 :::
 
 > [!TIP] 注意
-> Setting 配置一样保持一致
+> Setting 配置保持一致
 
-![deploy](/assets/20250608135431.jpg)
+![Setting](/assets/20250615200932.jpg)  
+![deploy](/assets/20250615201413.jpg)
 
 ### 查看部署状态
 
