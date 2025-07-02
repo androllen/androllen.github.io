@@ -31,3 +31,6 @@ mvn help:system
 ### 设置 maven for vscode 
 
 ### 创建Maven项目
+
+### 其他方案
+https://blog.csdn.net/java_xiaoo/article/details/126360787
