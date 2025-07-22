@@ -457,3 +457,9 @@ The only thing necessary for the triumph of evil is for good people to do nothin
 
 ### 20250501-0506
 20块大饼 一袋饺子 一包瓜子 三根腊肠 四根火腿肠
+
+### 20250712-0713 天气晴朗
+三斤 茴香馅饺子和西葫芦馅饺子 5斤包子 4斤粽子  
+
+
+
