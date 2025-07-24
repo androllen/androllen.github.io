@@ -540,3 +540,9 @@ jobs:
 
 如果需要修改部署配置，请编辑 `.github/workflows/deploy.yml` 文件。
 
+### 问题
+
+如果部署完后网站出现 `README.md` 页面
+
+请删掉根目录下的 `README.md` 
+
