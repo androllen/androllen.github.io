@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress'
 
-process.env.VITE_EXTRA_EXTENSIONS = 'iss,nsi,vbs' // additional values should be comma separated without any spaces - `ini,foo,bar`
-
+// additional values should be comma separated without any spaces - `ini,foo,bar`
+process.env.VITE_EXTRA_EXTENSIONS = 'iss,nsi,vbs' 
+import lightbox from "vitepress-plugin-lightbox"
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "androllen'blogs",
@@ -9,9 +10,23 @@ export default defineConfig({
 
   lang: 'zh-CN',
 
+  cleanUrls: true,
+  markdown: {
+    lineNumbers: true,
+    image: {
+      // 默认禁用；设置为 true 可为所有图片启用懒加载。
+      lazyLoading: true
+    },
+      config: (md) => {
+      // Use lightbox plugin
+      md.use(lightbox, {});
+    },
+  },
+  
   lastUpdated: true,
   ignoreDeadLinks: true,
 
+  // ['script', { defer: '', async: '', src: 'https://events.vercount.one/js' }]
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/vitepress-logo-mini.png' }],
   ],
