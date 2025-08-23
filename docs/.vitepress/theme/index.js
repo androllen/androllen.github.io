@@ -1,6 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
 import { inBrowser } from 'vitepress'
-import busuanzi from 'busuanzi.pure.js'
 import MyLayout from './layout.vue'
 
 export default {
@@ -11,7 +10,7 @@ export default {
 
     if (inBrowser) {
       router.onAfterRouteChanged = () => {
-        busuanzi.fetch()
+        
       }
     }
   }

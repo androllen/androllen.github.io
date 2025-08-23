@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 // additional values should be comma separated without any spaces - `ini,foo,bar`
-process.env.VITE_EXTRA_EXTENSIONS = 'iss,nsi,vbs' 
+process.env.VITE_EXTRA_EXTENSIONS = 'iss,nsi,vbs'
 import lightbox from "vitepress-plugin-lightbox"
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -17,18 +17,18 @@ export default defineConfig({
       // 默认禁用；设置为 true 可为所有图片启用懒加载。
       lazyLoading: true
     },
-      config: (md) => {
+    config: (md) => {
       // Use lightbox plugin
       md.use(lightbox, {});
     },
   },
-  
+
   lastUpdated: true,
   ignoreDeadLinks: true,
 
-  // ['script', { defer: '', async: '', src: 'https://events.vercount.one/js' }]
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/vitepress-logo-mini.png' }],
+    ['script', { defer: '', async: '', src: 'https://events.vercount.one/js' }]
   ],
 
   themeConfig: {
@@ -231,8 +231,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present androllen'
+      copyright: '<div><span style="font-size: 0.825rem; display: inline-block; margin-right: 8px;">tpv:<span id="vercount_value_page_pv" style="font-size: 0.825rem; display: inline-block; margin-right: 8px;"></span></span><span style="font-size: 0.825rem; display: inline-block; margin-right: 8px;">tv:<span id="vercount_value_site_pv" style="font-size: 0.825rem; display: inline-block; margin-right: 8px;"></span></span><span style="font-size: 0.825rem; display: inline-block; margin-right: 8px;">stv:<span id="vercount_value_site_uv" style="font-size: 0.825rem; display: inline-block;"></span></span></div>',
+      message: `Released under the MIT License. Copyright © 2019-${new Date().getFullYear()} androllen`
     },
     docFooter: {
       prev: '上一页',

@@ -1,11 +1,8 @@
-<!-- .vitepress/theme/MyLayout.vue -->
-
 <script setup>
 import { onMounted } from "vue";
 import { useRouter } from "vitepress";
 import mediumZoom from "medium-zoom";
 import DefaultTheme from 'vitepress/theme'
-import bsz from "./components/docbsz.vue";
 import backtotop from "./components/docbacktop.vue";
 
 // const { Layout } = DefaultTheme;
@@ -26,21 +23,10 @@ router.onAfterRouteChange = setupMediumZoom;
 </script>
 
 <template>
-  <!-- <Layout v-bind="$attrs">
-    <template #doc-footer-before>
-      <backtotop />
-    </template>
-<template #layout-bottom>
-      <bsz />
-    </template>
-</Layout> -->
   <DefaultTheme.Layout v-bind="$attrs">
 
     <template #doc-footer-before>
       <backtotop />
-    </template>
-    <template #layout-bottom>
-      <bsz />
     </template>
 
   </DefaultTheme.Layout>
