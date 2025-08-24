@@ -231,8 +231,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: `Released under the MIT License. Copyright © 2019-${new Date().getFullYear()} androllen`,
-      copyright: '<p><span style="font-size: 0.825rem; display: inline-block; margin-right: 8px;">tpv:<span id="vercount_value_page_pv" style="font-size: 0.825rem; display: inline-block; margin-right: 8px;"></span></span><span style="font-size: 0.825rem; display: inline-block; margin-right: 8px;">tv:<span id="vercount_value_site_pv" style="font-size: 0.825rem; display: inline-block; margin-right: 8px;"></span></span><span style="font-size: 0.825rem; display: inline-block; margin-right: 8px;">stv:<span id="vercount_value_site_uv" style="font-size: 0.825rem; display: inline-block;"></span></span></p>'
+      message: 'Released under the MIT License.',
+      copyright: `Copyright © 2019-${new Date().getFullYear()} androllen`
     },
     docFooter: {
       prev: '上一页',
