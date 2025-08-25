@@ -20,6 +20,42 @@ export const numberWithCommas = (num: number) => {
 }
 
 
+export const setCountShow = () => {
+  const messageElement = document.querySelector(".message");
+
+  // 检查元素是否存在
+  if (!messageElement) {
+    console.error("找不到.message元素");
+    return;
+  }
+
+  // 将Element类型转换为HTMLElement以访问dataset属性
+  const messageHtmlElement = messageElement as HTMLElement;
+
+  // 第一次运行时存储原始文本
+  if (!messageHtmlElement.dataset.originalText) {
+    messageHtmlElement.dataset.originalText = messageHtmlElement.textContent || "";
+  }
+
+  // 从localStorage获取数据
+  const jsct = localStorage.getItem("visitorCountData");
+
+  // 检查数据是否存在
+  if (!jsct) {
+    console.warn("localStorage中没有visitorCountData");
+    return;
+  }
+
+  try {
+    // 解析JSON数据
+    const jsonObj = JSON.parse(jsct);
+    // 使用存储的原始文本更新内容
+    messageHtmlElement.innerHTML = `${messageHtmlElement.dataset.originalText}<br>页面访问: ${jsonObj.page_pv} | 总访问量: ${jsonObj.site_pv} | 独立访客: ${jsonObj.site_uv}`;
+
+  } catch (error) {
+    console.error("解析localStorage数据时出错:", error);
+  }
+};
 /**
  * 文字统计
  * @param data 字符串
