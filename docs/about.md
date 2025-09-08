@@ -6,7 +6,7 @@ title: with my contact
 
 ### 基本资料  
 
-- 姓名        :刘春辉  
+- 姓名        :androllen•刘  
 - 专业        :机械设计与自动化  
 - 学历        :专科
 - 邮箱        :androllen#hotmail.com
