@@ -488,3 +488,6 @@ The only thing necessary for the triumph of evil is for good people to do nothin
 ### 20260101-0103
 饺子 烙饼 糖火烧  
 葱和蒜  
+
+### 20260221 饭后晚 大风
+我妈看我在阳台偏屋工作，她开了阳台灯，关了厨房灯，确自己借着阳台灯吃饭
