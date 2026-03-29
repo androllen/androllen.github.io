@@ -105,6 +105,7 @@ export default defineConfig({
             { text: 'douyin', link: '/articles/tools/2020-11-30-douyin-live.md' },
             { text: 'WiFi', link: '/articles/tools/2021-12-19-Wi-Fi-Protected.md' },
             { text: 'Morse code', link: '/articles/tools/2023-01-04-Morse-code.md' },
+            { text: 'Claude Code', link: '/articles/tools/2026-03-29-claude-code.md' },
           ]
         }
       ],
