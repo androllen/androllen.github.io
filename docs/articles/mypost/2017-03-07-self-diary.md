@@ -488,3 +488,14 @@ The only thing necessary for the triumph of evil is for good people to do nothin
 ### 20260101-0103
 饺子 烙饼 糖火烧  
 葱和蒜  
+
+
+### 20260205-0223
+糖 瓜子 花生 山楂卷  
+杏仁露 茶友派   
+葱 大蒜 腊八蒜  
+豆包 年糕 灌肠 丸子 猪头肉 白山药 虾 挤肉 
+
+
+### 20260404-0406 晴天
+饺子 包子
