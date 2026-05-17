@@ -491,3 +491,16 @@ The only thing necessary for the triumph of evil is for good people to do nothin
 
 ### 20260221 饭后晚 大风
 我妈看我在阳台偏屋工作，她开了阳台灯，关了厨房灯，确自己借着阳台灯吃饭
+
+### 20260507 晴
+3斤茴香肉饺子  
+7张大饼  
+8个糖火烧  
+9头蒜  
+10个山楂卷  
+一袋巴旦木  
+一袋瓜子  
+一袋花生瓜子糖  
+一根香肠  
+一袋江米条  
+一袋蚕豆  
